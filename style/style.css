@@ -1,12 +1,18 @@
-/* ! Resting all default css */
+/*************
+Font
+*************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/*************
+CSS Reset
+*************/
 *,*:before,*:after{ box-sizing: border-box; }
-/* ! margins */
+/*  margins */
 body, h1, h2, h3, h4, h5, figure, picture, p, div, a{ margin: 0; padding: 0; }
-/* ! setting up body */
-body{ line-height: 1.5; min-height: 100vh;font-family: 'Poppins';}
-/* ! pictures and images */
+/*  setting up body */
+body{ line-height: 1.5; min-height: 100vh;font-weight:400;}
+/*  pictures and images */
 img, picture{ max-width: 100%; display: block; }
-/* ! buttons, inputs fields, selections */
+/*  buttons, inputs fields, selections */
 input, button, select, a{ font: inherit; }
 @media(prefers-reduced-motion:reduced) {
     *,*:before,*:after {
@@ -16,11 +22,124 @@ input, button, select, a{ font: inherit; }
         scroll-behavior:auto!important;
     }
 }
+/*************
+Coustom Style
+*************/
+:root{
+    /* Fonts Sizes */
+    --fs-logo: 26px;
+    --fs-title: 36px;
+    --fs-head: 24px;
+    --fs-text: 20px; 
+    --fs-btn: 16px; 
+    /* Fonts Wieght */
+    --fw-bold: 500;
+    --fw-bolder: 600;
+    /* Letter Spacing */
+    --ls:1.3;
+    /* colors */
+    --dark:#111111;
+    --dim:#333333;
+    --shade:#e1e1e1;
+    --white:#ffffff;
+    --blue:#1e0fec;
+    --green:#28ee1a;
+    --red:#e74f0f;
+     /* Fonts */ 
+     --f-Poppins: 'Poppins';
+     /* Fonts Sizes */
 
-/* font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-/* starting coustom css  */
+}
+
+/*************
+Typography
+*************/
+.title{
+    font-size: var(--fs-title);
+    letter-spacing: var(--ls);
+}
+.head{
+    font-size: var(--fs-head);
+    letter-spacing: var(--ls)    
+}
+.text{font-size: var(--fs-text);}
+.bold{font-weight: var(--fw-bold);}
+.bolder{font-weight: var(--fw-bolder)}
+.italic{font-style: italic;}
+/*************
+Buttons
+*************/
+.btn{
+    padding: 7px 18px;
+    font-size: var(--fs-btn);
+    border: none;
+    cursor: pointer;
+}
+.btn_small{
+    padding: 4px 9px;
+    font-size: var(--fs-btn);
+    border: none;
+    cursor: pointer;
+}
+.btn_larg{
+    padding: 12px 20px;
+    font-size: var(--fs-btn);
+    border: none;
+    cursor: pointer;
+}
+.btn_blue{
+    background-color:var(--blue);
+    color: var(--white);
+}
+.btn_green{
+    background-color:var(--green);
+    color: var(--white);
+}
+.btn_red{
+    background-color:var(--red);
+    color:var(--white);
+}
+/*************
+Boder 
+*************/
+.border_1{border:2px solid var(--blue);}
+.border_2{border:3px solid var(--blue);}
+.border_3{border:4px solid var(--blue);}
+
+.round_1{border-radius:5px;}
+.round_2{border-radius:10px;}
+.round_3{border-radius:40px;}
+/*************
+Colors 
+*************/
+.text_red{color:var(--red);}
+.text_blue{color:var(--blue);}
+.text_green{color:var(--green);}
+
+.bg_red{background-color:var(--red);}
+.bg_blue{background-color:var(--blue);}
+.bg_green{background-color:var(--green);}
 
 body{
-    font-family: 'Poppins';
+    font-family:var(--f-Poppins);
+}
+.s_container{
+    width: 60%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size:var(--fs-logo);
+    font-weight: 600;
+    margin-top: 10px;
+}
+.nav_links{
+    width:300px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;  
 }
