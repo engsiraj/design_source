@@ -42,26 +42,19 @@ Coustom Style
     --dim:#626F7A;
     --shade:#BABFC8;
     --white:#ffffff;
-    --blue:#6465DA;
-    --green:#62D661;
-    --red:#EA6075;
+    --blue:#008fff;
+    --green:#50e3c2;
+    --red:#ff5436;
      /* Fonts */ 
      --f-Poppins: 'Poppins';
      /* Fonts Sizes */
-
 }
 
 /*************
 Typography
 *************/
-.title{
-    font-size: var(--fs-title);
-    letter-spacing: var(--ls);
-}
-.head{
-    font-size: var(--fs-head);
-    letter-spacing: var(--ls)    
-}
+.title{font-size: var(--fs-title);letter-spacing: var(--ls);}
+.head{font-size: var(--fs-head);letter-spacing: var(--ls)}
 .text{font-size: var(--fs-text);}
 .bold{font-weight: var(--fw-bold);}
 .bolder{font-weight: var(--fw-bolder)}
@@ -87,51 +80,60 @@ Buttons
     border: none;
     cursor: pointer;
 }
-.btn_blue{
-    background-color:var(--blue);
-    color: var(--white);
-}
-.btn_green{
-    background-color:var(--green);
-    color: var(--white);
-}
-.btn_red{
-    background-color:var(--red);
-    color:var(--white);
-}
 /*************
-Boder 
+Boders
 *************/
-.border_1{border:2px solid var(--blue);}
-.border_2{border:3px solid var(--blue);}
-.border_3{border:4px solid var(--blue);}
-
+.border_1{border-width:2px;border-style:solid;}
+.border_2{border-width:3px;border-style:solid;}
+.border_3{border-width:4px;border-style:solid;}
+/* Rouded Border */
 .round_1{border-radius:5px;}
 .round_2{border-radius:10px;}
 .round_3{border-radius:40px;}
-
-
 /*************
 Colors 
 *************/
+/* Border color */
+.border_red{border-color:var(--red);}
+.border_blue{border-color:var(--blue);}
+.border_green{border-color:var(--green);}
+.border_dim{border-color:var(--dim);}
+.border_dark{border-color:var(--dark);}
+.border_white{border-color:var(--white);}
+.border_shade{border-color:var(--shade);}
+/* Button colors */
+.btn_blue{background-color:var(--blue);}
+.btn_green{background-color:var(--green);}
+.btn_red{background-color:var(--red);}
+.btn_dim{background-color:var(--dim);}
+.btn_dark{background-color:var(--dark);}
+.btn_shade{background-color:var(--shade);}
+.btn_white{background-color:var(--white);}
+/* text */
 .text_red{color:var(--red);}
 .text_blue{color:var(--blue);}
 .text_green{color:var(--green);}
-
+.text_dim{color:var(--dim);}
+.text_dark{color:var(--dark);}
+.text_white{color:var(--white);}
+.text_shade{color:var(--shade);}
+/* Background */
 .bg_red{background-color:var(--red);}
 .bg_blue{background-color:var(--blue);}
 .bg_green{background-color:var(--green);}
+.bg_dim{background-color:var(--dim);}
+.bg_dark{background-color:var(--dark);}
+.bg_white{background-color:var(--white);}
+.bg_shade{background-color:var(--shade);}
 /*************
-Colors 
+Margins
+*************/
+
+/*************
+Paddings
 *************/
 
 
-
-
-
-/*************
-Colors 
-*************/
 
 
 
