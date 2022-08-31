@@ -26,6 +26,8 @@ input, button, select, a{ font: inherit; }
 Coustom Style
 *************/
 :root{
+    /* Fonts */ 
+     --f-Poppins: 'Poppins';
     /* Fonts Sizes */
     --fs-logo: 26px;
     --fs-title: 36px;
@@ -45,10 +47,24 @@ Coustom Style
     --blue:#008fff;
     --green:#50e3c2;
     --red:#ff5436;
-     /* Fonts */ 
-     --f-Poppins: 'Poppins';
-     /* Fonts Sizes */
-}
+    
+      /* border width  */
+     --bw1:2px;
+     --bw2:3px;
+     --bw3:4px;
+       /* border roundness */
+     --br1:2px;
+     --br2:10px;
+     --br3:40px;
+     /* Margin sizes  */
+     --m1:5px;
+     --m2:10px;
+     --m3:20px;
+      /* padding sizes  */
+     --p1:5px;
+     --p2:10px;
+     --p3:20px;
+    }
 
 /*************
 Typography
@@ -83,13 +99,13 @@ Buttons
 /*************
 Boders
 *************/
-.border_1{border-width:2px;border-style:solid;}
-.border_2{border-width:3px;border-style:solid;}
-.border_3{border-width:4px;border-style:solid;}
+.border_1{border-width:var(--bs1);border-style:solid;}
+.border_2{border-width:var(--bs2);border-style:solid;}
+.border_3{border-width:var(--bs3);border-style:solid;}
 /* Rouded Border */
-.round_1{border-radius:5px;}
-.round_2{border-radius:10px;}
-.round_3{border-radius:40px;}
+.round_1{border-radius:var(--br1);} 
+.round_2{border-radius:var(--br2);}
+.round_3{border-radius:var(--br3);}
 /*************
 Colors 
 *************/
@@ -128,13 +144,49 @@ Colors
 /*************
 Margins
 *************/
+.m_auto{margin:0 auto;}
+.m_1{margin: var(--m1);}
+.m_2{margin: var(--m2);}
+.m_3{margin: var(--m3);}
 
+.mt_1{margin-top:var(--m1);}
+.ms_1{margin-left:var(--m1);}
+.me_1{margin-right:var(--m1);}
+.mb_1{margin-bottom:var(--m1);}
+
+.mt_2{margin-top:var(--m2);}
+.ms_2{margin-left:var(--m2);}
+.me_2{margin-right:var(--m2);}
+.mb_2{margin-bottom:var(--m2);}
+
+.mt_3{margin-top:var(--m3);}
+.ms_3{margin-left:var(--m3);}
+.me_3{margin-right:var(--m3);}
+.mb_3{margin-bottom:var(--m3);}
 /*************
 Paddings
 *************/
+.p_1{padding:var(--p1);}
+.p_2{padding:var(--p2);}
+.p_3{padding:var(--p3);}
 
+.pt_1{padding-top:var(--p1);}
+.ps_1{padding-left:var(--p1);}
+.pe_1{padding-right:var(--p1);}
+.pb_1{padding-bottom:var(--p1);}
 
+.pt_2{padding-top:var(--p2);}
+.ps_2{padding-left:var(--p2);}
+.pe_2{padding-right:var(--p2);}
+.pb_2{padding-bottom:var(--p2);}
 
+.pt_3{padding-top:var(--p3);}
+.ps_3{padding-left:var(--p3);}
+.pe_3{padding-right:var(--p3);}
+.pb_3{padding-bottom:var(--p3);}
+/*************
+Grid System
+*************/
 
 
 
