@@ -38,13 +38,13 @@ Coustom Style
     /* Letter Spacing */
     --ls:1.3;
     /* colors */
-    --dark:#111111;
-    --dim:#333333;
-    --shade:#e1e1e1;
+    --dark:#323B44;
+    --dim:#626F7A;
+    --shade:#BABFC8;
     --white:#ffffff;
-    --blue:#1e0fec;
-    --green:#28ee1a;
-    --red:#e74f0f;
+    --blue:#6465DA;
+    --green:#62D661;
+    --red:#EA6075;
      /* Fonts */ 
      --f-Poppins: 'Poppins';
      /* Fonts Sizes */
@@ -109,6 +109,8 @@ Boder
 .round_1{border-radius:5px;}
 .round_2{border-radius:10px;}
 .round_3{border-radius:40px;}
+
+
 /*************
 Colors 
 *************/
@@ -119,6 +121,38 @@ Colors
 .bg_red{background-color:var(--red);}
 .bg_blue{background-color:var(--blue);}
 .bg_green{background-color:var(--green);}
+/*************
+Colors 
+*************/
+
+
+
+
+
+/*************
+Colors 
+*************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 body{
     font-family:var(--f-Poppins);
