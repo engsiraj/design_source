@@ -227,14 +227,15 @@ Grid System
 /* flex */
 .line{display: flex;}
 .line_reverse{flex-direction: row-reverse;}
-.cloumn{flex-direction: column;}
-.cloumn{flex-direction: column-reverse;}
+.column{flex-direction: column;}
+.column_reverse{flex-direction: column-reverse;}
 .sb{justify-content: space-between;}
 .sa{justify-content: space-around;}
 .jc{justify-content: center;}
 /* items */
 .ac{align-items: center;}
-.ar{align-items: right;}
-.at{align-items: top;} 
-.ab{align-items: baseline;}
+.ae{align-items: flex-end;}
+.ab{align-items: baseline;} 
+.as{align-items: flex-start;}
 
+.he1{height:20vh;}
