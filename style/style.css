@@ -218,12 +218,12 @@ Grid System
 *************/
 .w1{width:100%;}   /* 1 */
 .w2{width:50%;}    /* 2 */
-.w3{width:33.3%;}  /* 3 */
-.w4{width:25%;}    /* 4 */
-.w5{width:20%;}    /* 5 */
-.w6{width:16.7%;}  /* 6 */
-.w7{width:14.3%;}  /* 7 */
-.w8{width:12.5%;}  /* 8 */
+.w3{width:33.2%;}  /* 3 */
+.w4{width:24.9%;}  /* 4 */
+.w5{width:19.9%;}  /* 5 */
+.w6{width:16.6%;}  /* 6 */
+.w7{width:14.19%;} /* 7 */
+.w8{width:12.39%;} /* 8 */
 /* flex */
 .line{display: flex;}
 .line_reverse{flex-direction: row-reverse;}
