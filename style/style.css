@@ -128,9 +128,9 @@ Buttons
 /*************
 Boders
 *************/
-.border1{border-width:var(--bs1);border-style:solid;}
-.border2{border-width:var(--bs2);border-style:solid;}
-.border3{border-width:var(--bs3);border-style:solid;}
+.border1{border-width:var(--bw1);border-style:solid;}
+.border2{border-width:var(--bw2);border-style:solid;}
+.border3{border-width:var(--bw3);border-style:solid;}
 /* Rouded Border */
 .round1{border-radius:var(--br1);} 
 .round2{border-radius:var(--br2);}
