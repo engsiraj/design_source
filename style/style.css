@@ -28,7 +28,6 @@ Coustom Style
 :root{
     /* Fonts */ 
      --f-Poppins: 'Poppins';
-
     /* Container Sizes */
     --large:80%;
     --medium:70%;
@@ -63,12 +62,12 @@ Coustom Style
      --br2:10px;
      --br3:2px;
      /* Margin sizes  */
-     --m1:20px;
-     --m2:10px;
+     --m1:30px;
+     --m2:15px;
      --m3:5px;
       /* padding sizes  */
-     --p1:20px;
-     --p2:10px;
+     --p1:30px;
+     --p2:15px;
      --p3:5px;
     }
 
@@ -91,6 +90,8 @@ Containers
 /*************
 Typography
 *************/
+.font_poppins{font-family: var(--f-Poppins);}
+
 .type1{font-size: var(--type1);}
 .type2{font-size: var(--type2);}
 .type3{font-size: var(--type3);}
@@ -98,9 +99,11 @@ Typography
 .type5{font-size: var(--type5);}
 .type6{font-size: var(--type6);}
 
-.bold{font-weight: var(--fw-bold);}
-.bolder{font-weight: var(--fw-bolder)}
+.bold{font-weight: var(--bold);}
+.bolder{font-weight: var(--bolder)}
 .italic{font-style: italic;}
+
+li{list-style: none;}
 /*************
 Buttons
 *************/
@@ -116,7 +119,7 @@ Buttons
     border: none;
     cursor: pointer;
 }
-.btn_larg{
+.btn_large{
     padding: 12px 20px;
     font-size: var(--type6);
     border: none;
@@ -232,6 +235,6 @@ Grid System
 /* items */
 .ac{align-items: center;}
 .ar{align-items: right;}
-.at{align-items: top;}
+.at{align-items: top;} 
 .ab{align-items: baseline;}
 
