@@ -240,18 +240,18 @@ Grid System
 .grid7{width:14.19%;} /* 7 */
 .grid8{width:12.39%;} /* 8 */
 /* flex */
-.line{display: flex;}
-.line_reverse{flex-direction: row-reverse;}
+.flex{display: flex;}
+.row_reverse{flex-direction: row-reverse;}
 .column{flex-direction: column;}
 .column_reverse{flex-direction: column-reverse;}
-.sb{justify-content: space-between;}
-.sa{justify-content: space-around;}
-.jc{justify-content: center;}
+.space_between{justify-content: space-between;}
+.space_around{justify-content: space-around;}
+.justify_center{justify-content: center;}
 /* items */
-.ac{align-items: center;}
-.ae{align-items: flex-end;}
-.ab{align-items: baseline;} 
-.as{align-items: flex-start;}
+.align_center{align-items: center;}
+.align_end{align-items: flex-end;}
+.align_baseline{align-items: baseline;} 
+.align_start{align-items: flex-start;}
 
 .he1{height:20vh;}
 img{width: 50%;}
