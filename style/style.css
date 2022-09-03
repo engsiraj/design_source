@@ -170,60 +170,75 @@ Colors
 .bg_dark{background-color:var(--dark);}
 .bg_white{background-color:var(--white);}
 .bg_shade{background-color:var(--shade);}
+
+
+
+
 /*************
 Margins
 *************/
-.mauto{margin:0 auto;}
-.m1{margin: var(--m1);}
-.m2{margin: var(--m2);}
-.m3{margin: var(--m3);}
+.margin_auto{margin:0 auto;}
+.margin1{margin: var(--m1);}
+.margin2{margin: var(--m2);}
+.margin3{margin: var(--m3);}
 
-.mt1{margin-top:var(--m1);}
-.ms1{margin-left:var(--m1);}
-.me1{margin-right:var(--m1);}
-.mb1{margin-bottom:var(--m1);}
+.margin_top1{margin-top:var(--m1);}
+.margin_start1{margin-left:var(--m1);}
+.margin_end1{margin-right:var(--m1);}
+.margin_bottom1{margin-bottom:var(--m1);}
 
-.mt2{margin-top:var(--m2);}
-.ms2{margin-left:var(--m2);}
-.me2{margin-right:var(--m2);}
-.mb2{margin-bottom:var(--m2);}
+.margin_top2{margin-top:var(--m2);}
+.margin_start2{margin-left:var(--m2);}
+.margin_end2{margin-right:var(--m2);}
+.margin_bottom2{margin-bottom:var(--m2);}
 
-.mt3{margin-top:var(--m3);}
-.ms3{margin-left:var(--m3);}
-.me3{margin-right:var(--m3);}
-.mb3{margin-bottom:var(--m3);}
+.margin_top3{margin-top:var(--m3);}
+.margin_start3{margin-left:var(--m3);}
+.margin_end3{margin-right:var(--m3);}
+.margin_bottom3{margin-bottom:var(--m3);}
 /*************
 Paddings
 *************/
-.p1{padding:var(--p1);}
-.p2{padding:var(--p2);}
-.p3{padding:var(--p3);}
+.padding1{padding:var(--p1);}
+.padding2{padding:var(--p2);}
+.padding3{padding:var(--p3);}
 
-.pt1{padding-top:var(--p1);}
-.ps1{padding-left:var(--p1);}
-.pe1{padding-right:var(--p1);}
-.pb1{padding-bottom:var(--p1);}
+.padding_top1{padding-top:var(--p1);}
+.padding_side1{padding-left:var(--p1);}
+.padding_end1{padding-right:var(--p1);}
+.padding_bottom1{padding-bottom:var(--p1);}
 
-.pt2{padding-top:var(--p2);}
-.ps2{padding-left:var(--p2);}
-.pe2{padding-right:var(--p2);}
-.pb2{padding-bottom:var(--p2);}
+.padding_top2{padding-top:var(--p2);}
+.padding_side2{padding-left:var(--p2);}
+.padding_end2{padding-right:var(--p2);}
+.padding_bottom2{padding-bottom:var(--p2);}
 
-.pt3{padding-top:var(--p3);}
-.ps3{padding-left:var(--p3);}
-.pe3{padding-right:var(--p3);}
-.pb3{padding-bottom:var(--p3);}
+.padding_top3{padding-top:var(--p3);}
+.padding_side3{padding-left:var(--p3);}
+.padding_end3{padding-right:var(--p3);}
+.padding_bottom3{padding-bottom:var(--p3);}
 /*************
 Grid System
 *************/
-.w1{width:100%;}   /* 1 */
-.w2{width:50%;}    /* 2 */
-.w3{width:33.2%;}  /* 3 */
-.w4{width:24.9%;}  /* 4 */
-.w5{width:19.9%;}  /* 5 */
-.w6{width:16.6%;}  /* 6 */
-.w7{width:14.19%;} /* 7 */
-.w8{width:12.39%;} /* 8 */
+.width1{width:10%;}   /* 1 */
+.width2{width:20%;}    /* 2 */
+.width3{width:30%;}  /* 3 */
+.width4{width:40%;}  /* 4 */
+.width5{width:50%;}  /* 5 */
+.width6{width:60%;}  /* 6 */
+.width7{width:70%;} /* 7 */
+.width8{width:80%;} /* 8 */
+.width9{width:90%;} /* 9 */
+
+
+.grid1{width:100%;}   /* 1 */
+.grid2{width:50%;}    /* 2 */
+.grid3{width:33.2%;}  /* 3 */
+.grid4{width:24.9%;}  /* 4 */
+.grid5{width:19.9%;}  /* 5 */
+.grid6{width:16.6%;}  /* 6 */
+.grid7{width:14.19%;} /* 7 */
+.grid8{width:12.39%;} /* 8 */
 /* flex */
 .line{display: flex;}
 .line_reverse{flex-direction: row-reverse;}
