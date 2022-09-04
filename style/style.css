@@ -204,17 +204,17 @@ Paddings
 .padding3{padding:var(--p3);}
 
 .padding_top1{padding-top:var(--p1);}
-.padding_side1{padding-left:var(--p1);}
+.padding_start1{padding-left:var(--p1);}
 .padding_end1{padding-right:var(--p1);}
 .padding_bottom1{padding-bottom:var(--p1);}
 
 .padding_top2{padding-top:var(--p2);}
-.padding_side2{padding-left:var(--p2);}
+.padding_start2{padding-left:var(--p2);}
 .padding_end2{padding-right:var(--p2);}
 .padding_bottom2{padding-bottom:var(--p2);}
 
 .padding_top3{padding-top:var(--p3);}
-.padding_side3{padding-left:var(--p3);}
+.padding_start3{padding-left:var(--p3);}
 .padding_end3{padding-right:var(--p3);}
 .padding_bottom3{padding-bottom:var(--p3);}
 /*************
