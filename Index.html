@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='./style/style.css' rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-one-light.min.css" />
     <title>Design System</title>
 </head>
 
@@ -16,7 +17,7 @@
             <p class="type4 margin_top2 bold">Design system</p>
             <ul class="type5 margin_top2 grid2 flex space_between">
                 <li>Docs</li>
-                <li>Components</li>
+                 <li><a href="./pages/component.html" class="text_dark">Components</a></li>
                 <li>GitHub</li>
             </ul>
         </nav>
@@ -86,13 +87,18 @@
             <p class="type5 margin_bottom1 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis,
                 nemo.</p>
             <div class="flex space_between">
-                <div class="padding_end2 grid2">
-                    <p class="type5 margin_bottom3 text_dark">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Consectetur placeat officiis, a repudiandae iste aliquid, libero ipsam assumenda eius
-                        reprehenderit quisquam numquam est eos voluptates fugit consequuntur, cum laudantium
-                        voluptatibus consequatur commodi. Accusantium porro harum, animi praesentium soluta veritatis
-                        corporis.
-                    </p>
+                <div class="padding_end2 grid2 flex column justify_center margin_bottom3">
+<pre><code class="language-html"> &lt;p class="type1"&gt;Typography&lt;/p&gt;
+ &lt;p class="type2"&gt;Typography&lt;/p&gt;
+ &lt;p class="type3"&gt;Typography&lt;/p&gt;
+ &lt;p class="type4"&gt;Typography&lt;/p&gt;
+ &lt;p class="type5"&gt;Typography&lt;/p&gt;
+ &lt;p class="type6"&gt;Typography&lt;/p&gt;
+
+ &lt;p class="bold"&gt;Bold text&lt;/p&gt;
+ &lt;p class="bolder"&gt;Bolder text&lt;/p&gt;
+ &lt;p class="italic"&gt;Italic text&lt;/p&gt;
+</code></pre>
                 </div>
                 <div class="padding_start2 grid2 padding2 border3 border_dark ">
                     <p class="type1 margin_bottom3 text_dark">Typography</p>
@@ -101,6 +107,10 @@
                     <p class="type4 margin_bottom3 text_dark">Typography</p>
                     <p class="type5 margin_bottom3 text_dark">Typography</p>
                     <p class="type6 margin_bottom3 text_dark">Typography</p>
+                    <br>
+                    <p class="type6 bold margin_bottom3 text_dark">Bold text</p>
+                    <p class="type6 bolder margin_bottom3 text_dark">Bolder text</p>
+                    <p class="type6 italic margin_bottom3 text_dark">Italic text</p>
                 </div>
             </div>
         </div>
@@ -215,28 +225,30 @@
                 nemo.</p>
             <div class="flex space_between">
                 <div class="padding_end2 grid2">
-                    <div class="">
+                    <div>
                         <p class="margin_top3 margin_bottom3 type5 bolder">Section</p>
                         <p class="type5 margin_bottom2 ">Lorem ipsum dolor, sit ame.</p>
                     </div>
-                    <hr />
-                    <div class="">
+                    <hr/>
+                    <div>
                         <p class="margin_top3 margin_bottom3 type5 bolder">Section</p>
                         <p class="type5 margin_bottom2 ">Lorem ipsum dolor, sit ame.</p>
                     </div>
-                    <hr />
-                    <div class="">
+                    <hr/>
+                    <div>
                         <p class="margin_top3 margin_bottom3 type5 bolder">Section</p>
                         <p class="type5 margin_bottom2 ">Lorem ipsum dolor, sit ame.</p>
                     </div>
                 </div>
-                <div class="padding_start2 grid2">
-                    <div class="grid1 type6 padding2 margin_bottom3 border3 border_dark text_dark
-                        ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non sit, fugit, omnis praesentium
-                        laudantium quovel
-                        nisi excepturi nihil temporibus blanditiis facere, iure commodi? In quasi totam ipsa, asperiores
-                        est iure, illo tempora facilis, commodi quo consequatur. Optio alias nobis delectus possimus
-                        doloremque,</div>
+                <div class="padding_start2 grid2">                 
+<pre><code class="language-html"> &lt;p class="type5 bolder"&gt;Section&lt;/p&gt;
+ &lt;p class="type5"&gt;Some text&lt;/p&gt;
+ &lt;hr/&gt;
+ &lt;p class="type5 bolder"&gt;Section&lt;/p&gt;
+ &lt;p class="type5"&gt;Some text&lt;/p&gt;
+ &lt;hr/&gt;
+ &lt;p class="type5 bolder"&gt;Section&lt;/p&gt;
+ &lt;p class="type5"&gt;Some text&lt;/p&gt;</code><pre/>
                 </div>
             </div>
             <!--  section -->
@@ -383,6 +395,11 @@
                 </div>
 
             </div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 </body>
 
 </html>
