@@ -105,7 +105,7 @@ li{list-style: none;}
 /*************
  links & Buttons
 *************/
-.link{text-decoration:none;}
+a{text-decoration:none;}
 .link:hover{text-decoration:underline;}
 
 .btn{
