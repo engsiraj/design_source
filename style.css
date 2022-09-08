@@ -101,6 +101,9 @@ Typography
 .bolder{font-weight: var(--bolder)}
 .italic{font-style: italic;}
 
+.text_start{text-align: left;}
+.text_end{text-align: right;}
+
 li{list-style: none;}
 /*************
  links & Buttons
@@ -228,7 +231,6 @@ Grid System
 .width8{width:80%;} /* 8 */
 .width9{width:90%;} /* 9 */
 
-
 .grid1{width:100%;}   /* 1 */
 .grid2{width:50%;}    /* 2 */
 .grid3{width:33.2%;}  /* 3 */
@@ -250,3 +252,10 @@ Grid System
 .align_end{align-items: flex-end;}
 .align_baseline{align-items: baseline;} 
 .align_start{align-items: flex-start;}
+
+
+
+
+table{border-collapse: collapse;}
+table tr:nth-child(even){background-color: var(--shade);}
+table tr:hover {background-color: var(--shade);}
