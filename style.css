@@ -29,6 +29,7 @@ Coustom Style
     /* Fonts */ 
      --f-Poppins: 'Poppins';
     /* Container Sizes */
+    --exlarge:90%;
     --large:80%;
     --medium:70%;
     --small:60%;
@@ -47,7 +48,7 @@ Coustom Style
     /* colors */
     --dark:#323B44;
     --dim:#626F7A;
-    --shade:#BABFC8;
+    --shade:#f0f0f0;
     --white:#ffffff;
     --blue:#008fff;
     --green:#50e3c2;
@@ -73,6 +74,10 @@ Coustom Style
 /*************
 Containers
 *************/
+.exlarge_container{
+    width: var(--exlarge);
+    margin: 0 auto;
+}
 .large_container{
     width: var(--large);
     margin: 0 auto;
@@ -252,10 +257,9 @@ Grid System
 .align_end{align-items: flex-end;}
 .align_baseline{align-items: baseline;} 
 .align_start{align-items: flex-start;}
-
-
-
-
+/*************
+Grid System
+*************/
 table{border-collapse: collapse;}
 table tr:nth-child(even){background-color: var(--shade);}
 table tr:hover {background-color: var(--shade);}
