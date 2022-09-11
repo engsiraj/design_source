@@ -116,7 +116,8 @@ Typography
 .text_start{text-align: left;}
 .text_end{text-align: right;}
 /* list  */
-li{list-style: none;}
+.style_none{list-style: none;}
+
 /*************
  links & Buttons
 *************/
