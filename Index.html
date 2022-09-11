@@ -57,7 +57,7 @@
         <!--  get started -->
         <div class="margin_top1 margin_bottom1">
             <p class="type4 bolder margin_bottom2" id="get">Get started</p>
-            <p class="type5 margin_bottom2">For fast-paced design, you can use a CDN or starter file as  <span class="text_green type6 bold">index.html</span></p>
+            <p class="type5 margin_bottom2">For fast-paced design, you can use a CDN or starter file as  <span class="text_red type6 bold">index.html</span></p>
             <!--  CDN -->
             <div class="grid1">
                 <p class=" type5 bolder margin_bottom3">CDN</p>
@@ -86,19 +86,16 @@
             <!-- Typography -->
             <div class="margin_top1 margin_bottom1" id="typo">
                 <p class="margin_top2 margin_bottom2 type4 bolder">Typography</p>
-                <p class="type5 margin_bottom1 ">A class called <span class="text_green type6 bold">.type1 - .type6</span> shows 6 different sizes of type faces and font styles like <span class="text_green type6 bold">.bold</span> and <span class="text_green type6 bold">.italic</span> as well</p>
+                <p class="type5 margin_bottom1 ">A class called <span class="text_red type6 bold">.type1 - .type6</span> shows 6 different sizes of type faces and font styles like <span class="text_red type6 bold">.bold</span> and <span class="text_red type6 bold">.italic</span> as well</p>
+
                 <div class="flex space_between">
                     <div class="grid2">
-                        <p class="type1 margin_bottom3 text_dark">Typography</p>
-                        <p class="type2 margin_bottom3 text_dark">Typography</p>
-                        <p class="type3 margin_bottom3 text_dark">Typography</p>
-                        <p class="type4 margin_bottom3 text_dark">Typography</p>
-                        <p class="type5 margin_bottom3 text_dark">Typography</p>
-                        <p class="type6 margin_bottom3 text_dark">Typography</p>
-                        <br>
-                        <p class="type6 bold margin_bottom3 text_dark">Bold text</p>
-                        <p class="type6 bolder margin_bottom3 text_dark">Bolder text</p>
-                        <p class="type6 italic margin_bottom3 text_dark">Italic text</p>
+                        <p class="type1 text_dark">Typography</p>
+                        <p class="type2 text_dark">Typography</p>
+                        <p class="type3 text_dark">Typography</p>
+                        <p class="type4 text_dark">Typography</p>
+                        <p class="type5 text_dark">Typography</p>
+                        <p class="type6 text_dark">Typography</p>
                     </div>
                     <div class="grid2 flex column justify_center margin_bottom3">
                         <pre><code class="language-html"> &lt;p class="type1"&gt;Typography&lt;/p&gt;
@@ -107,13 +104,20 @@
  &lt;p class="type4"&gt;Typography&lt;/p&gt;
  &lt;p class="type5"&gt;Typography&lt;/p&gt;
  &lt;p class="type6"&gt;Typography&lt;/p&gt;
-
- &lt;p class="bold"&gt;Bold text&lt;/p&gt;
- &lt;p class="bolder"&gt;Bolder text&lt;/p&gt;
- &lt;p class="italic"&gt;Italic text&lt;/p&gt;
 </code></pre>
                     </div>
                 </div>
+                    <p class="type5 bolder margin_bottom3 margin_top1">Text Classes </p>
+                    <ul class="type6 ">
+                            <li><span class="text_red type6 bold">.bold</span> bold 500</li>
+                            <li><span class="text_red type6 bold">.bolder</span> bold 600</li>
+                            <li><span class="text_red type6 bold">.italic</span> italic style</li>
+                            <li><span class="text_red type6 bold">.text_start</span> left aligned</li>
+                            <li><span class="text_red type6 bold">.text_end</span> right aligned</li>
+                            <li><span class="text_red type6 bold">.text_center</span> center aligned</li>
+                            <li><span class="text_red type6 bold">.style_none</span> list style</li>
+                           
+                        </ul>
             </div>
             <!--  Colors -->
             <div class="margin_top1 margin_bottom1" id="color">
@@ -123,7 +127,7 @@
                 <div class="flex space_between margin_bottom2">
                     <div class="padding_end2 grid2">
                         <p class="type5 bolder margin_bottom3 margin_top3">Background color</p>
-                        <p class="type5">Adding a background color to an element is as simple as adding the color name <span class="text_green type6 bold">.bg_color</span> classes.</p>   
+                        <p class="type5">Adding a background color to an element is as simple as adding the color name <span class="text_red type6 bold">.bg_color</span> classes.</p>   
                     </div>
                     <div class="padding_start2 grid2">
                         <p class="type5 bolder margin_bottom3 margin_top3">Color</p>
@@ -159,43 +163,69 @@
                 </div>
             </div>
 
-            <!--  Grid  -->
+            <!--  spacings  -->
 
-            <div class="margin_top1 margin_bottom1" id="spa">
-                <p class="margin_top2 margin_bottom2 type4 bolder">Spacings</p>
-                <ul class="type5 ">
-                    <li>margin - for classes that set margin</li>
-                    <li>padding - for classes that set padding</li>
-                </ul>
-                
-                <div class="flex space_between">
-                    <div class="padding_end2 grid2">
-                        <p class="type5 bolder margin_bottom3">Margin</p>
-                         <ul class="type5 ">
-                            <li>.margin - to set margin all sides</li>
-                            <li>.margin_auto - to set margin auto</li>
-                            <li>.margin_start - to set margin left</li>
-                            <li>.masrgin_end - to set margin right</li>
-                            <li>.margin_top - to set margin top</li>
-                            <li>.margin_bottom - to set margin bottom</li>
+            <div class="margin_top1 margin_bottom1" id="spacing">
+                <p class="margin_top2 margin_bottom2 type4 bolder">Spacings 
+                    <a class="text_shade type5 bold link" href="#spacing">#</a> 
+                </p>
+                <p class="type5 margin_bottom3"> to set up spacing use <span class="text_red type6 bold">.margin</span> and <span class="text_red type6 bold">.padding</span>  where <span class="text_red type6 bold">1</span> is larger value and <span class="text_red type6 bold">3</span> is smallest value.</p>
+
+                         <ul class="type6 ">
+                            <li><span class="text_red type6 bold">.margin</span> | <span class="text_red type6 bold">.padding</span> - to set margin or paddigs</li>
+                            <li><span class="text_red type6 bold">.margin_auto</span>  - to set margin auto.</li>
+                            <li><span class="text_red type6 bold">.margin_start</span> | <span class="text_red type6 bold">.padding_start</span>  - to set at left.</li>
+                            <li><span class="text_red type6 bold">.margin_end</span> | <span class="text_red type6 bold">.padding_end</span>  - to set at right.</li>
+                            <li><span class="text_red type6 bold">.margin_top</span> | <span class="text_red type6 bold">.padding_top</span> - to set at top.</li>
+                            <li><span class="text_red type6 bold">.margin_bottom</span> | <span class="text_red type6 bold">.padding_bottom</span> - to set at bottom.</li>
                          </ul>
-                          <p class="type5 Bold">Sizes</p>
-                         <ul class="type5 ">
-                            <li>.margin_auto - to set margin auto</li>
-                            <li>.margin_start - to set margin left</li>
-                            <li>.masrgin_end - to set margin right</li>
-                            <li>.margin_top - to set margin top</li>
-                            <li>.margin_bottom - to set margin bottom</li>
-                            <li>.margin - to set margin all sides</li>
-                            <br>
-                            <li>.margin1 - to set 5px margin all side</li>
+                          <p class="type5 bold">Sizes</p>
+                         <ul class="type6 ">
+                             <li>
+                                <span class="text_red type6 bold">0px</span>
+                                to set up all side classses
+                                <span class="text_red type6 bold">.margin0 .padding0</span>     
+                             </li>
+
+                            <li>
+                                <span class="text_red type6 bold">5px </span>    
+                                to set up all side classses
+                                <span class="text_red type6 bold">.margin3, .padding3, .margin_start3, .margin_end3, .margin_top3, .margin_bottom3
+                                </span>     
+                             </li>
+
+                             <li>
+                                <span class="text_red type6 bold">15px</span>
+                                to set up all side classses
+                                <span class="text_red type6 bold">.margin2, .padding2, margin_start2, .margin_end2, .margin_top2, .margin_bottom2
+                                </span>     
+                             </li>
+                             <li>
+                                <span class="text_red type6 bold">30px</span>
+                                to set up all side classses
+                                <span class="text_red type6 bold">.margin1, .padding1, margin_start1, .margin_end1, .margin_top1, .margin_bottom1
+                                    
+                                </span>     
+                             </li>
                          </ul>
-                    </div>
-                    <div class="padding_start2 grid2">
-                        <p class="type5 bolder margin_bottom3">Padding</p>
-                        <p class="type5 margin_bottom3 ">Lorem ipsum dolor sit amet consectetur</p>
-                    </div>
-                </div>
+            </div>
+            <div class="margin_top1 margin_bottom1" id="flex">
+                <p class="margin_top2 margin_bottom2 type4 bolder">Flex 
+                    <a class="text_shade type5 bold link" href="#flex">#</a> 
+                </p>
+                         <ul class="type6 ">
+                            <li><span class="text_red type6 bold">.display_flex</span></li>
+                            <li><span class="text_red type6 bold">.row_reverse</span></li>
+                            <li><span class="text_red type6 bold">.column</span></li>
+                            <li><span class="text_red type6 bold">.column_reverse</span></li>
+                            <li><span class="text_red type6 bold">.space_between</span></li>
+                            <li><span class="text_red type6 bold">.space_around</span></li>
+                            <li><span class="text_red type6 bold">.justify_center</span></li>
+                            <li><span class="text_red type6 bold">.align_center</span></li>
+                            <li><span class="text_red type6 bold">.align_end</span></li>
+                            <li><span class="text_red type6 bold">.align_baseline</span></li>
+                            <li><span class="text_red type6 bold">.align_start</span></li>
+                        </ul>
             </div>
 
             <!--  Grid  -->
@@ -276,7 +306,7 @@
 
             <!--  Responsive Layouts -->
             <div class="margin_top1 margin_bottom1" id="res_layout">
-                <p class="margin_top2 margin_bottom2 type4 bolder">Resposive Layouts</p>
+                <p class="margin_top2 margin_bottom2 type4 bolder">Containers</p>
                 <p class="type5 margin_bottom2 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis,
                     nemo.</p>
                 <p class="type5 bolder margin_bottom3">Screen Sizes</p>
