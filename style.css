@@ -63,7 +63,7 @@ Coustom Style
        /* border roundness */
      --br1:40px;
      --br2:10px;
-     --br3:2px;
+     --br3:4px;
      /* Margin sizes  */
      --m1:30px;
      --m2:15px;
@@ -76,9 +76,6 @@ Coustom Style
 /*************
 Containers
 *************/
-.show{display: block;}
-.hide{display: none;}
-
 
 .exlarge_container{
     width: var(--exlarge);
@@ -132,7 +129,7 @@ a{
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
  /* buttons  */
-.btn{
+.btn_medium{
     padding: 7px 18px;
     font-size: var(--type6);
     border: none;

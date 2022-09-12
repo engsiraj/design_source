@@ -25,10 +25,10 @@
         <header class="width6">
             <p class="type3 bolder margin_top1 padding_top1">The Design Source <br> For developers by developer.</p>
             <p class="type5 margin_top2">Using a user-friendly user interface design system, you can customize your design</p>
-            <button class="margin_top2 margin_bottom2 type6 btn_large btn_blue round2 bolder hvr_white"><a
+            <button class="margin_top2 margin_bottom2 type6 btn_large btn_blue round3 bolder hvr_white"><a
                     class="text_white" href="#get">Get Started</a></button>
             <button
-                class=" margin_start3 margin_top2 margin_bottom1 type6 btn_large btn_shade round2 bolder hvr_white"><a
+                class=" margin_start3 margin_top2 margin_bottom1 type6 btn_large btn_shade round3 bolder hvr_white"><a
                     class="text_dark" href="./pages/component.html">Components</a></button>
         </header>
         <!-- links section -->
@@ -37,18 +37,18 @@
             <a class="text_blue link" href="#color">Colors</a> |
             <a class="text_blue link" href="#grid">Grid</a> |
             <a class="text_blue link" href="#width">Width</a> |
-            <a class="text_blue link" href="#res_layout">Responsive</a> |
+            <a class="text_blue link" href="#res_layout">Containers</a> |
             <a class="text_blue link" href="#element">Elements</a> |
-            <a class="text_blue link" href="#visibility">Visible</a> |
+            <!-- <a class="text_blue link" href="#visibility">Visible</a> | -->
             <a class="text_blue link" href="#hover">Hover</a> |
-            <a class="text_blue link" href="#shadow">Shadows</a> |
-            <a class="text_blue link" href="#media">Media</a>
+            <a class="text_blue link" href="#shadow">Shadows</a> 
+            <!-- <a class="text_blue link" href="#media">Media</a> -->
         </div>
         <!--  About -->
         <div class="flex space_between ">
             <div class=" margin_top1 margin_bottom1 width6 flex column justify_center ">
                 <p class="type4 bolder margin_bottom2">About Design source design system</p>
-                <p class="type5 margin_bottom2">The Design Source is a User Interface Design System built in html/css that allows resources to be reused to build consistent user interfaces and brands</p>
+                <p class="type5 margin_bottom2">The Design Source is a User Interface Design System built in html/css and flexbox that allows resources to be reused to build consistent user interfaces and brands</p>
                 <p class="type5">An open source project developed by [ <a class="link text_blue bold"href="https://github.com/sirajofcl">Siraj</a> ], a React frontend developer and Design system engineer.
                 </p>
             </div>
@@ -105,8 +105,14 @@
  &lt;p class="type5"&gt;Typography&lt;/p&gt;
  &lt;p class="type6"&gt;Typography&lt;/p&gt;
 </code></pre>
-                    </div>
+                    </div>      
                 </div>
+
+ <!--  Alert -->
+ <div class="margin_top1 grid1 padding2 margin_bottom3 bg_shade border3 border_blue text_dark">
+        <p class="type5 bolder margin_bottom3 text_blue">Design Tip !</p>
+        <p class="type6">For the sake of designing classes are using (_) instead of (-) when we double click on (_) using class its gets selected the whole class_name instead of separating-class in two word in (-).
+ </div>
                     <p class="type5 bolder margin_bottom3 margin_top1">Text Classes </p>
                     <ul class="type6 ">
                             <li><span class="text_red type6 bold">.bold</span> bold 500</li>
@@ -127,12 +133,12 @@
                 <div class="flex space_between margin_bottom2">
                     <div class="padding_end2 grid2">
                         <p class="type5 bolder margin_bottom3 margin_top3">Background color</p>
-                        <p class="type5">Adding a background color to an element is as simple as adding the color name <span class="text_red type6 bold">.bg_color</span> classes.</p>   
+                        <p class="type6">Adding a background color to an element is as simple as adding the color name <span class="text_red type6 bold">.bg_color</span> classes.</p>   
                     </div>
                     <div class="padding_start2 grid2">
                         <p class="type5 bolder margin_bottom3 margin_top3">Color</p>
-                        <p class="type5">Text colors can be applied by adding them to the color class as shown here</p>
-                    </div>
+                        <p class="type6">Text colors can be applied by adding them to the color class as shown here</p>
+                    </div> 
                 </div>
                 <p class="type5 bolder">color pallets</p>
                 <div class="flex space_between margin_top2 margin_bottom2">
@@ -163,6 +169,56 @@
                 </div>
             </div>
 
+            <!--  Borders  -->
+             <div class="margin_top1 margin_bottom1" id="border">
+
+                <p class="margin_top2 margin_bottom2 type4 bolder">Borders
+                <a class="text_shade type5 bold link" href="#border">#</a> 
+                </p>
+                <p class="type5 margin_bottom3"> to set up borders use <span class="text_red type6 bold">.border3</span>,
+                <span class="text_red type6 bold">.round3</span> ,
+                and <span class="text_red type6 bold">.border_color</span> classes
+                where <span class="text_red type6 bold">1</span> is larger value and <span class="text_red type6 bold">3</span> is smallest value
+                </p>
+
+                 <ul class="type6 ">           
+                    <li><span class="text_red type6 bold">.border1</span>  - to set all borders.</li>
+                    <li><span class="text_red type6 bold">.border2</span>  - to set margin auto.</li>
+                    <li><span class="text_red type6 bold">.border3</span>  - to set margin auto.</li>
+                 </ul>
+
+                <div class="flex space_between">
+                    <div class="width3 type6 bolder padding2 margin_bottom3 bg_white border1 text_dark">border1</div>
+                    <div class="width3 type6 bolder padding2 margin_bottom3 bg_white border2 text_dark">border2</div>
+                    <div class="width3 type6 bolder padding2 margin_bottom3 bg_white border3 text_dark">border3</div>
+                </div>
+
+                 <ul class="type6 ">     
+                     <li><span class="text_red type6 bold">.round1</span>  - to set all borders.</li>
+                     <li><span class="text_red type6 bold">.round2</span>  - to set margin auto.</li>
+                     <li><span class="text_red type6 bold">.round3</span>  - to set margin auto.</li>
+                 </ul>
+
+                <div class="flex space_between">
+                    <div class="width3 type6 bolder padding2 margin_bottom3 bg_white border1 text_dark round1">round1</div>
+                    <div class="width3 type6 bolder padding2 margin_bottom3 bg_white border2 text_dark round2">round2</div>
+                    <div class="width3 type6 bolder padding2 margin_bottom3 bg_white border3 text_dark round3">round3</div>
+                </div>
+
+                 <ul class="type6 ">     
+                     <li><span class="text_red type6 bold">.border_red</span>  - to set all borders.</li>
+                     <li><span class="text_red type6 bold">.border_blue</span>  - to set margin auto.</li>
+                     <li><span class="text_red type6 bold">.border_green</span>  - to set margin auto.</li>
+                 </ul>
+
+                <div class="flex space_between">
+                    <div class="width3 type6 bolder padding2 margin_bottom3 bg_white border1 text_dark round1 border_red">round1 red</div>
+                    <div class="width3 type6 bolder padding2 margin_bottom3 bg_white border2 text_dark round2 border_blue">round2 blue</div>
+                    <div class="width3 type6 bolder padding2 margin_bottom3 bg_white border3 text_dark round3 border_green">round3 green</div>
+                </div>
+
+
+             </div>
             <!--  spacings  -->
 
             <div class="margin_top1 margin_bottom1" id="spacing">
@@ -410,11 +466,11 @@
                 <p class="type5 margin_bottom2 ">Shadows are used to give the vibe of depth to design. so we include the shadows as <span class="text_red type6 bold">.shadow</span> class in design design source design system and can be used on basis of its depth as 1 2 3 so, on.
                 </p>
                 <div class="flex space_between">
-                    <div class="shadow1 grid6 type6 bolder padding2 margin_bottom3 text_green">.shadow1</div>
-                    <div class="shadow2 grid6 type6 bolder padding2 margin_bottom3 text_green">.shadow2</div>
-                    <div class="shadow3 grid6 type6 bolder padding2 margin_bottom3 text_green">.shadow3</div>
-                    <div class="shadow4 grid6 type6 bolder padding2 margin_bottom3 text_green">.shadow4</div>
-                    <div class="shadow5 grid6 type6 bolder padding2 margin_bottom3  text_green">.shadow5</div>
+                    <div class="shadow1 grid6 type6 bolder padding2 margin_bottom3 text_red">.shadow1</div>
+                    <div class="shadow2 grid6 type6 bolder padding2 margin_bottom3 text_red">.shadow2</div>
+                    <div class="shadow3 grid6 type6 bolder padding2 margin_bottom3 text_red">.shadow3</div>
+                    <div class="shadow4 grid6 type6 bolder padding2 margin_bottom3 text_red">.shadow4</div>
+                    <div class="shadow5 grid6 type6 bolder padding2 margin_bottom3  text_red">.shadow5</div>
                 </div>
             </div>
             <!--  Media -->
