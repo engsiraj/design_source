@@ -85,7 +85,7 @@ Containers
     width: var(--large);
     margin: 0 auto;
 }
-.container{
+.medium_container{
     width: var(--medium);
     margin: 0 auto;
 }
@@ -277,7 +277,8 @@ Grid System
 .grid7{width:14.19%;} /* 7 */
 .grid8{width:12.39%;} /* 8 */
 /* flex */
-.flex{display: flex;}
+.flex{display: flex;} 
+.row{display:flex;}
 .row_reverse{flex-direction: row-reverse;}
 .column{flex-direction: column;}
 .column_reverse{flex-direction: column-reverse;}
@@ -295,3 +296,31 @@ Table
 table{border-collapse: collapse;}
 table tr:nth-child(even){background-color: var(--shade);}
 table tr:hover {background-color: var(--shade);}
+
+
+/*************
+Responsive Design 
+*************/
+
+@media(max-width:600px) {
+.row{flex-direction: column;}
+.exlarge_container{
+    width: var(--exlarge);
+    margin: 0 auto;
+}
+.large_container{
+    width: var(--exlarge);
+    margin: 0 auto;
+}
+.medium_container{
+    width: var(--exlarge);
+    margin: 0 auto;
+}
+.small_container{
+    width:var(--exlarge);
+    margin: 0 auto;
+}
+
+/* .grid1,.grid2,.grid3,.grid4,.grid5,.grid6,.grid7,.grid8{width: 100%;} */
+/* .width1,.width2,.width3,.width4,.width5,.width6,.width7,.width8,.width9{width: 100%;} */
+}
