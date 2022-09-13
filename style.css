@@ -302,7 +302,7 @@ table tr:hover {background-color: var(--shade);}
 Responsive Design 
 *************/
 
-@media(max-width:600px) {
+@media(max-width:900px) {
 .row{flex-direction: column;}
 .exlarge_container{
     width: var(--exlarge);
@@ -320,9 +320,5 @@ Responsive Design
     width:var(--exlarge);
     margin: 0 auto;
 }
-
-
-
-/* .grid1,.grid2,.grid3,.grid4,.grid5,.grid6,.grid7,.grid8{width: 100%;} */
-/* .width1,.width2,.width3,.width4,.width5,.width6,.width7,.width8,.width9{width: 100%;} */
+.width1,.width2,.width3,.width4,.width5,.width6,.width7,.width8,.width9{width: 100%;}
 }
