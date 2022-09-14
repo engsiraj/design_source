@@ -11,7 +11,6 @@
   <a href="https://github.com/sirajofcl/designsource/issues/new">Request feature</a>
   ·
   <a href="https://designsource.netlify.app/pages/component.html">Components</a>
-  ·
 </p>
 
 ### Design Source
@@ -50,7 +49,7 @@ These are the ways you can start using design source.
 
 Design is thier early buildings process one it completed with errors/issues/flaws will be updated regularly 
 
-#### Creator
+### Creator
 
 **M. Siraj**
 
