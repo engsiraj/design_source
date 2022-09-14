@@ -3,12 +3,12 @@
 <p align="center">
    front-end framework for easier web development.
   <br>
-  <a href="https://designsource.netlify.app/"><strong>explore design sourse »</strong></a>
+  <a href="https://designsource.netlify.app/"><strong>explore design source »</strong></a>
   <br>
   <br>
-  <a href="https://github.com/sirajofcl/designsource/issues/new">Issue</a>
+  <a href="https://github.com/engsiraj/designsource/issues/new">Issue</a>
   ·
-  <a href="https://github.com/sirajofcl/designsource/issues/new">Request feature</a>
+  <a href="https://github.com/engsiraj/designsource/issues/new">Request feature</a>
   ·
   <a href="https://designsource.netlify.app/pages/component.html">Components</a>
 </p>
@@ -22,32 +22,30 @@ Design is on its early 0.1.1 release can be used for designing and developement.
 - [Updates](#updates)
 - [Creator](#creator)
 
-
 ### Quick start
 
 These are the ways you can start using design source.
 
 - By downloading css file `https://github.com/sirajofcl/designsource/blob/master/style.css`.
-- By using cdn link `https://cdn.jsdelivr.net/gh/sirajofcl/designsystem@0.1.1/style.css`.
-
+- By using cdn link `https://cdn.jsdelivr.net/gh/engsiraj/designsource@master/style.css`.
 
 ### File Map
 
-  ```
-  designsystem/
-  ├── asset/
-  │   └── projectimage.png
-  │
-  ├── pages/
-  │   └── component.html
-  │
-  ├── index.html
-  └── style.css
-  ```
+```
+designsystem/
+├── asset/
+│   └── projectimage.png
+│
+├── pages/
+│   └── component.html
+│
+├── index.html
+└── style.css
+```
 
 ### Updates
 
-Design is thier early buildings process one it completed with errors/issues/flaws will be updated regularly 
+Design is thier early buildings process one it completed with errors/issues/flaws will be updated regularly
 
 ### Creator
 
@@ -55,6 +53,5 @@ Design is thier early buildings process one it completed with errors/issues/flaw
 
 [Linkedin] | [Twitter]
 
-
-[twitter]: https://twitter.com/sirajofcl
-[linkedin]: https://linkedin.com/in/sirajofcl
+[twitter]: https://twitter.com/engsiraj_
+[linkedin]: https://linkedin.com/in/engsiraj
