@@ -18,7 +18,7 @@
 Design is on its early 0.1.1 release can be used for designing and developement. it develop to achieve handy and re-useable css style easiest simplest way.
 
 - [Quick start](#quick-start)
-- [File Map](#file-map)
+- [Structure](#structure)
 - [Updates](#updates)
 - [Creator](#creator)
 
@@ -29,7 +29,7 @@ These are the ways you can start using design source.
 - By downloading css file `https://github.com/sirajofcl/designsource/blob/master/style.css`.
 - By using cdn link `https://cdn.jsdelivr.net/gh/engsiraj/designsource@master/style.css`.
 
-### File Map
+### Structure
 
 ```
 designsystem/
@@ -45,7 +45,7 @@ designsystem/
 
 ### Updates
 
-Design is thier early buildings process one it completed with errors/issues/flaws will be updated regularly
+UI design system is taking its toddlers steps which is fully created by and being maintained by Author 
 
 ### Creator
 
