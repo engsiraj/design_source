@@ -19,7 +19,7 @@ Design is on its early 0.1.1 release can be used for designing and developement.
 
 - [Quick start](#quick-start)
 - [Structure](#structure)
-- [Updates](#updates)
+- [Issues/Updates/Maintenance](#issues/updates/maintenance)
 - [Creator](#creator)
 
 ### Quick start
@@ -43,11 +43,11 @@ designsystem/
 └── style.css
 ```
 
-### Updates
+### Issues/Updates/Maintenance
 
-UI design system is taking its toddlers steps which is fully created by and being maintained by Author 
+UI design system is taking its toddlers steps which is fully created by and being maintained by Author
 
-### Creator
+### Author
 
 **M. Siraj**
 
