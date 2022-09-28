@@ -19,6 +19,8 @@ Design is on its early 0.1.1 release can be used for designing and developement.
 
 - [Quick start](#quick-start)
 - [Structure](#structure)
+- [Working](#working)
+- [Technologies used](#technologies-used)
 - [Issues/Updates/Maintenance](#issues/updates/maintenance)
 - [Creator](#creator)
 
@@ -42,6 +44,16 @@ designsystem/
 ├── index.html
 └── style.css
 ```
+
+
+### Working 
+
+UI Design is easy and understandle classes are used by thier common name abbrevations are fully avoided to make understandle and well structured code.
+
+#### Technologies used 
+
+Design is created with css and flex box only.
+contains single file  `style.css`.
 
 ### Issues/Updates/Maintenance
 
