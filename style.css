@@ -61,7 +61,7 @@ Coustom Style
      --bw2:3px;
      --bw3:2px;
        /* border roundness */
-     --br1:40px;
+     --br1:9999px;
      --br2:10px;
      --br3:4px;
      /* Margin sizes  */
@@ -321,4 +321,8 @@ Responsive Design
     margin: 0 auto;
 }
 .width1,.width2,.width3,.width4,.width5,.width6,.width7,.width8,.width9{width: 100%;}
+}
+
+.margin_min1{
+    margin-left: -25px;
 }
