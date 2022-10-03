@@ -344,3 +344,7 @@ Responsive Design
 .margin_min1{
     margin-left: -25px;
 }
+
+.hide {
+  display: none;
+}
