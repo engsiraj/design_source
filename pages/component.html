@@ -105,8 +105,8 @@
      <div class="margin_top1 margin_bottom1" id="divider">
       <p class="margin_top2 margin_bottom2 type4 bolder">Dividers</p>
       <p class="type5 margin_bottom1 ">divider are basically horizental row to add both vertical and horizental divider will be added in next update</p>
-    <div class="flex space_between">
-      <div class="padding_end2 grid2">
+    <div class="row space_between">
+      <div class="padding_end2 width5">
       <div>
         <p class="margin_top3 margin_bottom3 type5 bolder">Section</p>
         <p class="type5 margin_bottom2 ">some text here</p>
@@ -122,7 +122,7 @@
         <p class="type5 margin_bottom2 ">some text here</p>
       </div>
     </div>
-    <div class="padding_start2 grid2">
+    <div class="padding_start2 width5">
      <pre><code class="language-html"> &lt;p class="type5 bolder"&gt;...&lt;/p&gt;
  &lt;p class="type5"&gt;...&lt;/p&gt;
  &lt;hr/&gt;
@@ -185,24 +185,30 @@
         style="width:70px;"
     </p>
 <div class="flex">
-    <div style="width:70px;">
+    <div >
          <img class="round1  border1 border_white"  style="width:70px; height:70px;" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="pro_image">
     </div>
-    <div class="margin_min1"style="width:70px;">
+    <div class="margin_min1">
         <img class="round1  border1 border_white"  style="width:70px; height:70px;" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="pro_image">
     </div>
-    <div class="margin_min1"style="width:70px;">
+    <div class="margin_min1">
         <img class="round1  border1 border_white"  style="width:70px; height:70px;" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="pro_image">
     </div>
-    <div class="margin_min1"style="width:70px;">
+    <div class="margin_min1">
         <img class="round1  border1 border_white"  style="width:70px; height:70px;" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="pro_image">
     </div>
-    <div class="margin_min1"style="width:70px;">
+    <div class="margin_min1">
         <img class="round1  border1 border_white"  style="width:70px; height:70px;" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="pro_image">
     </div>
 </div>   
 </div>
-
+<pre><code class="language-html">&lt;div class="flex"&gt;
+&lt;div style="width:70px;"&gt;
+  &lt;img class="round1  border1 border_white"
+  style="width:70px; height:70px;" src="..."&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre></code>
 <!-- Color Swatches  -->
 <div class="margin_top1 margin_bottom1" id="table">
     <p class="margin_top2 margin_bottom2 type4 bolder">Color Swatches
@@ -216,6 +222,11 @@
     <div class="padding2 margin_end3 round1 bg_dark"></div>
     <div class="padding2 margin_end3 round1 bg_dim"></div>
 </div>
+<pre><code class="language-html">&lt;div class="flex"&gt;
+ &lt;div class="padding2 margin_end3
+ round1 bg_blue"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre></code>
 <!--  code  -->
 </div>
     <p class="margin_top2 margin_bottom2 type4 bolder">code
@@ -231,6 +242,13 @@
             <p class="type5 bolder margin_bottom3 text_blue">Alert</p>
             <p class="type6">this is blue bg alert </p>
     </div>
+<pre><code class="language-html">&lt;div class="grid1 padding2 margin_bottom3
+ bg_shade border3 border_blue text_dark"&gt;
+ &lt;p class="type5 bolder margin_bottom3 
+ text_blue"&gt;...&lt;/p&gt;
+ &lt;p class="type6"&gt;...&lt;/p&gt;
+&lt;/div&gt;
+</pre></code>
     </div>
 
   <!--  Footer -->
