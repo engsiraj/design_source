@@ -303,6 +303,10 @@ Grid System
 .space_between{justify-content: space-between;}
 .space_around{justify-content: space-around;}
 .justify_center{justify-content: center;}
+
+/* display */
+.hide {display: none;}
+
 /* items */
 .align_center{align-items: center;}
 .align_end{align-items: flex-end;}
@@ -345,6 +349,3 @@ Responsive Design
     margin-left: -25px;
 }
 
-.hide {
-  display: none;
-}
