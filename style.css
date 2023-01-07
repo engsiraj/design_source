@@ -22,7 +22,6 @@ input, button, select, a{ font: inherit; }
         scroll-behavior:auto!important;
     }
 }
-body{line-height: 1.5; min-height: 100vh;font-weight:400;}
 
 /*************
 Coustom Style
@@ -36,17 +35,16 @@ Coustom Style
     --medium:70%;
     --small:60%;
     /* Fonts Sizes */
-    --type1: 48px;      /* heading 01 */
-    --type2: 42px;      /* heading 02 */
-    --type3: 32px;      /* heading 03 */
+    --type1: 42px;      /* heading 01 */
+    --type2: 36px;      /* heading 02 */
+    --type3: 30px;      /* heading 03 */
     --type4: 24px;      /* heading 04 */
-    --type5: 20px;      /* text + links */
-    --type6: 16px;      /* button */
+    --type5: 18px;      /* text + links */
+    --type6: 14px;       /* button */
     /* Fonts Wieght */
-    --bold: 500;
-    --bolder: 600;
-    /* Letter Spacing */
-    --ls:1.3;
+    --bold1: 500;
+    --bold2: 600;
+    --bold7: 700;
     /* colors */
     --dark:#323B44;
     --dim:#626F7A;
@@ -103,11 +101,13 @@ Typography
 .type2{font-size: var(--type2);}
 .type3{font-size: var(--type3);}
 .type4{font-size: var(--type4);}
-.type5{font-size: var(--type5);}
-.type6{font-size: var(--type6);}
-/* bold  */
-.bold{font-weight: var(--bold);}
-.bolder{font-weight: var(--bolder)}
+.type5{font-size: var(--type5);line-height: 1.8;}
+.type6{font-size: var(--type6);line-height: 1.8;}
+/* font wieght  */
+.bold1{font-weight: var(--bold1);}
+.bold2{font-weight: var(--bold2);}
+.bold3{font-weight: var(--bold3);}
+/* font wieght  */
 .italic{font-style: italic;}
 /* text alignement  */
 .text_start{text-align: left;}
