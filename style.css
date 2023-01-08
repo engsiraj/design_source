@@ -22,7 +22,6 @@ input, button, select, a{ font: inherit; }
         scroll-behavior:auto!important;
     }
 }
-
 /*************
 Coustom Style
 *************/
@@ -318,7 +317,6 @@ Table
 table{border-collapse: collapse;}
 table tr:nth-child(even){background-color: var(--shade);}
 table tr:hover {background-color: var(--shade);}
-
 
 /*************
 Responsive Design 
