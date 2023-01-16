@@ -1,18 +1,15 @@
 /*************
-Font
+globle font
 *************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
 /*************
 CSS Reset
 *************/
 *,*:before,*:after{ box-sizing: border-box; }
-/*  margins */
 body, h1, h2, h3, h4, h5, figure, picture, p, div, a{ margin: 0; padding: 0; }
-/*  setting up body */
 body{ line-height: 1.5; min-height: 100vh;font-weight:400;}
-/*  pictures and images */
 img, picture{ max-width: 100%; display: block; }
-/*  buttons, inputs fields, selections */
 input, button, select, a{ font: inherit; }
 @media(prefers-reduced-motion:reduced) {
     *,*:before,*:after {
@@ -22,8 +19,9 @@ input, button, select, a{ font: inherit; }
         scroll-behavior:auto!important;
     }
 }
+
 /*************
-Coustom Style
+css variables
 *************/
 :root{
     /* Fonts */ 
@@ -34,12 +32,11 @@ Coustom Style
     --medium:70%;
     --small:60%;
     /* Fonts Sizes */
-    --type1: 42px;      /* heading 01 */
-    --type2: 36px;      /* heading 02 */
-    --type3: 30px;      /* heading 03 */
-    --type4: 24px;      /* heading 04 */
-    --type5: 18px;      /* text + links */
-    --type6: 14px;       /* button */
+    --type1: 38px;      /* title 1 */
+    --type2: 30px;      /* title 2 */
+    --type3: 24px;      /* title 3 */
+    --type4: 18px;      /* title 4 */
+    --text: 14px;       /* text */
     /* Fonts Wieght */
     --bold1: 500;
     --bold2: 600;
@@ -71,9 +68,10 @@ Coustom Style
      --p3:5px;
     }
 /*************
-Containers
+Layout
 *************/
 
+/* containers */
 .exlarge_container{
     width: var(--exlarge);
     margin: 0 auto;
@@ -90,30 +88,61 @@ Containers
     width:var(--small);
     margin: 0 auto;
 }
+
 /*************
 Typography
 *************/
-/* fonts  */
+
+/* font  */
 .font_poppins{font-family: var(--f-Poppins);}
-/* typography */
+/* title */
 .type1{font-size: var(--type1);}
 .type2{font-size: var(--type2);}
 .type3{font-size: var(--type3);}
-.type4{font-size: var(--type4);}
-.type5{font-size: var(--type5);line-height: 1.8;}
-.type6{font-size: var(--type6);line-height: 1.8;}
+.type4{font-size: var(--type4);line-height: 1.8;}
+.text{font-size: var(--text);line-height: 1.8;}
 /* font wieght  */
 .bold1{font-weight: var(--bold1);}
 .bold2{font-weight: var(--bold2);}
 .bold3{font-weight: var(--bold3);}
-/* font wieght  */
+/* font style  */
 .italic{font-style: italic;}
 /* text alignement  */
 .text_start{text-align: left;}
 .text_end{text-align: right;}
 .text_center{text-align: center;}
-/* list  */
-.style_none{list-style: none;}
+/* code */
+.code{
+    margin: 0 0.2em;
+    padding-inline: 0.4em;
+    font-size: 85%;
+    border: 1px solid rgba(100,100,100,0.2);
+    border-radius: .3em;
+    background: rgba(150,150,150,0.1);
+}
+/* keyboard */
+.keyboard{
+    margin: 0 0.2em;
+    padding-inline: 0.4em;
+    font-size: 85%;
+    border: 1px solid rgba(100,100,100,0.2);
+    border-bottom-width: 3px;
+    border-radius: .3em;
+    background: rgba(150,150,150,0.1);
+}
+
+/* lists  */
+ul,ol{
+    margin-inline: 0;
+    margin-block: 0 1em;
+    padding: 0;
+}
+/* lists styles */
+ol{list-style-type: decimal;}
+.type_none{list-style-type: none;}
+.type_circle{list-style-type: circle;}
+.type_disc{list-style-type: disc;}
+
 
 /*************
  links & Buttons
@@ -155,8 +184,8 @@ a{
   transition:box-shadow .5s ease-in-out;
   box-shadow: inset 350px 0 0 0 rgba(232, 232, 232, 0.474);
 }
-/* code */
-.code{box-shadow: #d1d5db 0px -4px 0px inset, var(--dim) 0px 1px 1px;}
+
+
 /*************
 Boders
 *************/
