@@ -1,6 +1,4 @@
-/*************
-globle font
-*************/
+/* ? globle font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
 
 /*************
@@ -238,10 +236,10 @@ a {
   cursor: pointer;
 }
 /* hover  */
-.link:hover {
-  box-shadow: inset 150px 0 0 0 var(--blue);
-  color: var(--white);
-}
+/* TODO: .link:hover {
+ TODO: box-shadow: inset 150px 0 0 0 var(--blue);
+ TODO: color: var(--white);
+ TODO: } */
 .hvr:hover {
   transition: box-shadow 0.5s ease-in-out;
   box-shadow: inset 350px 0 0 0 rgba(232, 232, 232, 0.474);

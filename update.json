@@ -1,8 +1,0 @@
-{
-  "packageManager": "github",
-  "name": "style.js",
-  "repo": "designsource/style/style.css",
-  "files": {
-    "include": ["style.css"]
-  }
-}
