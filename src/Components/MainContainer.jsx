@@ -5,11 +5,11 @@ import Content from './Content'
 const MainContainer = () => {
   return (
     <>
-        <div class="exlarge_container font_poppins text_dark " style={{padding:'50px 0px'}}>
-        <div class="row space_between" >
+        <div className="exlarge_container font_poppins text_dark " style={{padding:'85px 0px'}}>
+        <div className="row space_between" >
           <SideBar />
-          <div class="width8">
-           <Content/>
+          <div className="width8">
+            <Content/>
           </div>
         </div>
         </div>  
