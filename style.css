@@ -47,7 +47,7 @@ css variables
   /* colors */
   --dark: #323b44;
   --dim: #626f7a;
-  --shade: #f0f0f0;
+  --shade: #f3f3f3;
   --white: #ffffff;
   --blue: #008fff;
   --green: #00c98c;
@@ -134,7 +134,7 @@ ol {
 }
 li{margin: 8px 0;}
 /* lists styles */
-ol {list-style-type: decimal;}
+ol{list-style-type: decimal;}
 .type_none {list-style-type: none;}
 .type_circle {list-style-type: circle;}
 .type_disc {list-style-type: disc;}
