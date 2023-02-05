@@ -11,8 +11,10 @@ const Nav = () => {
   return (
     <nav className="exlarge_container font_poppins text_dark">
         <div className="flex space_between " style={{height: "50px"}} >
-               <img src={logo} style={Logo}/>
-               <a href="https://github.com/engsiraj/designsource" className="flex column justify_center text_dark link text_end type3"><BsGithub/></a>        
+            <img src={logo} style={Logo} />
+            <div className="flex column justify_center">
+              <a href="https://github.com/engsiraj/designsource" className="type3 link text_dark"><BsGithub/></a>  
+            </div>
         </div>
       </nav>
   )

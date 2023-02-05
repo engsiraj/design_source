@@ -1,9 +1,21 @@
-/* ? globle font */
+/* 
+----------------
+todo style.css
+* completed the open classes.
+* add good comments to every sections. 
+* create good documentation.
+* try using diffrent responsive units as em/rem/px
+------------------
+*/
+
+/*  globle font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-/*************
+/*
+------------
 CSS Reset
-*************/
+------------
+*/
 *,*:before,*:after {box-sizing: border-box;}
 body,h1,h2,h3,h4,h5,figure,picture,p,div,a {margin: 0;padding: 0;}
 body {
@@ -22,10 +34,11 @@ input,button,select,a{font: inherit;}
     scroll-behavior: auto !important;
   }
 }
-
-/*************
+/*
+---------------
 css variables
-*************/
+---------------
+*/
 :root {
   /* Fonts */
   --f-Poppins: "Poppins";
@@ -49,11 +62,11 @@ css variables
   --dim: #626f7a;
   --shade: #f3f3f3;
   --white: #ffffff;
-  --blue: #008fff;
-  --green: #00c98c;
-  --red: #ff5436;
-  --yellow:#F7A56D;
-  /* border width  */
+  --blue: #0288D1;
+  --green: #00C853;
+  --red: #DD2C00;
+  --yellow:#FFAB00;
+  /* border width  */  
   --width1: 2px;
   --width2: 3px;
   --width3: 4px;
@@ -61,18 +74,6 @@ css variables
   --radius1: 0.5em;
   --radius2: 1em;
   --radius3: 99em;
-  /* space unit */
-  --unit:6px;
-  /* space sizes */
-  --size1:1px;
-  --size2:2px;
-  --size3:3px;
-  --size4:4px;
-  --size5:5px;
-  --size6:6px;
-  --size7:7px;
-  --size8:8px;
-  
 }
 
 /* ! ***************************
@@ -173,8 +174,6 @@ a:hover{
   border: none;
   cursor: pointer;
 }
-
-
  /* ! ***************************
 ! corners
 ! ******************************/
@@ -370,25 +369,25 @@ Shadows
 /*************
 Grid System
 *************/
-/* width grid  */
-.width1 {width: 10%;} /* 1 */
-.width2 {width: 20%;} /* 2 */
-.width3 {width: 30%;} /* 3 */
-.width4 {width: 40%;} /* 4 */
-.width5 {width: 50%;} /* 5 */
-.width6 {width: 60%;} /* 6 */
-.width7 {width: 70%;} /* 7 */
-.width8 {width: 80%;} /* 8 */
-.width9 {width: 90%;} /* 9 */
+/*  wide  */
+.wide1 {width: 10%;} /* 1 */
+.wide2 {width: 20%;} /* 2 */
+.wide3 {width: 30%;} /* 3 */
+.wide4 {width: 40%;} /* 4 */
+.wide5 {width: 50%;} /* 5 */
+.wide6 {width: 60%;} /* 6 */
+.wide7 {width: 70%;} /* 7 */
+.wide8 {width: 80%;} /* 8 */
+.wide9 {width: 90%;} /* 9 */
 /* grid  */
-.grid1 {width: 100%;} /* 1 */
-.grid2 {width: 50%;} /* 2 */
-.grid3 {width: 33.2%;} /* 3 */
-.grid4 {width: 24.9%;} /* 4 */
-.grid5 {width: 19.9%;} /* 5 */
-.grid6 {width: 16.6%;} /* 6 */
-.grid7 {width: 14.19%;} /* 7 */
-.grid8 {width: 12.39%;} /* 8 */
+.column1 {width: 100%;} 
+.column2 {width: 49%;} 
+.column3 {width: 32%;} 
+.column4 {width: 24%;} 
+.column5 {width: 19%;} 
+.column6 {width: 15.667%;} 
+.column7 {width: 13.2857%;} 
+.column8 {width: 11.39%;} 
 /* flex */
 .flex {display: flex;}
 .row {display: flex;}
@@ -421,8 +420,7 @@ Responsive Design
   .large_container {width: var(--exlarge);}
   .medium_container {width: var(--exlarge);}
   .small_container {width: var(--exlarge);}
-  .width1,.width2,.width3,.width4,.width5,.width6,.width7,.width8,.width9 {width: 100%;}
+  .wide1,.wide,.wide3,.wide4,.wide5,.wide6,.wide7,.wide8,.wide9 {width: 100%;}
 }
-
 /* ? code snippets  */
 code[class*="language-"],pre[class*="language-"] {font-size: 14px;}

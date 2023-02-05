@@ -8,7 +8,7 @@ const MainContainer = () => {
         <div className="exlarge_container font_poppins text_dark " style={{padding:'85px 0px'}}>
         <div className="row space_between" >
           <SideBar />
-          <div className="width8">
+          <div className="wide8">
             <Content/>
           </div>
         </div>
