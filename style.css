@@ -49,9 +49,9 @@ css variables
   --small: 60%;
   /* Fonts Sizes */
   --type1: 36px; /* title 1 */
-  --type2: 28px; /* title 2 */
-  --type3: 20px; /* title 3 */
-  --type4: 16px; /* title 4 */
+  --type2: 30px; /* title 2 */
+  --type3: 24px; /* title 3 */
+  --type4: 18px; /* title 4 */
   --text: 14px; /* text */
   /* Fonts Wieght */
   --bold1: 500;
@@ -71,9 +71,8 @@ css variables
   --width2: 3px;
   --width3: 4px;
   /* border roundness */
-  --radius1: 0.5em;
-  --radius2: 1em;
-  --radius3: 99em;
+  --round: 0.75rem;
+  --circle: 99em;
 }
 
 /* ! ***************************
@@ -93,7 +92,7 @@ css variables
 .type1 {font-size: var(--type1);}
 .type2 {font-size: var(--type2);}
 .type3 {font-size: var(--type3);}
-.type4 {font-size: var(--type4);line-height: 1.8;}
+.regular {font-size: var(--type4);line-height: 1.8;}
 .text {font-size: var(--text);line-height: 1.8;}
 /* font wieght  */
 .bold1 {font-weight: var(--bold1);}
@@ -174,6 +173,12 @@ a:hover{
   border: none;
   cursor: pointer;
 }
+.btn_icon{
+  padding: 8px 10px;
+  font-size: var(--text);
+  border: none;
+  cursor: pointer;
+}
  /* ! ***************************
 ! corners
 ! ******************************/
@@ -198,9 +203,8 @@ a:hover{
 .border_bottom2 {border-bottom: var(--bw2);border-style: solid;}
 .border_bottom3 {border-bottom: var(--bw3);border-style: solid;}
 /* Rouded Border */
-.round1 {border-radius: var(--br1);}
-.round2 {border-radius: var(--br2);}
-.round3 {border-radius: var(--br3);}
+.round {border-radius: var(--round);}
+.circle {border-radius: var(--circle);}
 /* ! ***************************
 ! colors
 ! ******************************/
@@ -264,7 +268,9 @@ Shadows
 }
 
 /* ! space */
-
+.margin_auto{
+margin:0 auto;
+}
 /* margin */
 .margin0{margin:0px;}
 .margin1{margin:calc(6*1px);}
@@ -420,7 +426,7 @@ Responsive Design
   .large_container {width: var(--exlarge);}
   .medium_container {width: var(--exlarge);}
   .small_container {width: var(--exlarge);}
-  .wide1,.wide,.wide3,.wide4,.wide5,.wide6,.wide7,.wide8,.wide9 {width: 100%;}
+  .wide1,.wide2,.wide3,.wide4,.wide5,.wide6,.wide7,.wide8,.wide9 {width: 100%;}
 }
 /* ? code snippets  */
 code[class*="language-"],pre[class*="language-"] {font-size: 14px;}
