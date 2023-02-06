@@ -68,8 +68,6 @@ css variables
   --yellow:#FFAB00;
   /* border width  */  
   --width1: 2px;
-  --width2: 3px;
-  --width3: 4px;
   /* border roundness */
   --round: 0.75rem;
   --circle: 99em;
@@ -182,9 +180,7 @@ a:hover{
  /* ! ***************************
 ! corners
 ! ******************************/
-.border1 {border-width: var(--bw1);border-style: solid;}
-.border2 {border-width: var(--bw2);border-style: solid;}
-.border3 {border-width: var(--bw3);border-style: solid;}
+.border{border:1px solid}
 /*border right */
 .border_right1 {border-right: var(--bw1);border-style: solid;}
 .border_right2 {border-right: var(--bw2);border-style: solid;}
@@ -386,14 +382,14 @@ Grid System
 .wide8 {width: 80%;} /* 8 */
 .wide9 {width: 90%;} /* 9 */
 /* grid  */
-.column1 {width: 100%;} 
-.column2 {width: 49%;} 
-.column3 {width: 32%;} 
-.column4 {width: 24%;} 
-.column5 {width: 19%;} 
-.column6 {width: 15.667%;} 
-.column7 {width: 13.2857%;} 
-.column8 {width: 11.39%;} 
+.col1 {width: 100%;} 
+.col2 {width: 49%;} 
+.col3 {width: 32%;} 
+.col4 {width: 24%;} 
+.col5 {width: 19%;} 
+.col6 {width: 15.667%;} 
+.col7 {width: 13.2857%;} 
+.col8 {width: 11.39%;} 
 /* flex */
 .flex {display: flex;}
 .row {display: flex;}
@@ -420,13 +416,16 @@ table tr:hover {background-color: var(--shade);}
 /*************
 Responsive Design 
 *************/
-@media (max-width: 900px) {
+@media (max-width: 750px) {
   .row {flex-direction: column;}
   .exlarge_container {width: var(--exlarge);}
   .large_container {width: var(--exlarge);}
   .medium_container {width: var(--exlarge);}
   .small_container {width: var(--exlarge);}
   .wide1,.wide2,.wide3,.wide4,.wide5,.wide6,.wide7,.wide8,.wide9 {width: 100%;}
+  .col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8{
+    width:100%;
+  }
 }
 /* ? code snippets  */
 code[class*="language-"],pre[class*="language-"] {font-size: 14px;}
