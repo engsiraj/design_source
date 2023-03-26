@@ -310,6 +310,29 @@ ol{list-style-type: decimal;}
 .border_white {border-color: var(--white);}
 .border_gray {border-color: var(--gray);}
 
+.bg_red {background-color: var(--red);}
+.bg_blue {background-color: var(--blue);}
+.bg_green {background-color: var(--green);}
+.bg_yellow {background-color: var(--yellow);}
+.bg_light {background-color: var(--light);}
+.bg_dark {background-color: var(--dark);}
+.bg_white {background-color: var(--white);}
+.bg_gray {background-color: var(--gray);}
+
+.flex {display: flex;}
+.row {display: flex;}
+.row_reverse {flex-direction: row-reverse;}
+.column {flex-direction: column;}
+.column_reverse {flex-direction: column-reverse;}
+.space_between {justify-content: space-between;}
+.space_around {justify-content: space-around;}
+.justify_center {justify-content: center;}
+.align_center {align-items: center;}
+.align_end {align-items: flex-end;}
+.align_baseline {align-items: baseline;}
+.align_start {align-items: flex-start;}
+
+
 /* 
 -------------------
 ! Buttons
@@ -352,33 +375,16 @@ a:hover{
   cursor: pointer;
 }
 
-
-/* 
--------------------
-! colors
--------------------
-*/
-/* Border color */
-
-/* Button colors */
 .btn_blue {background-color: var(--blue);}
 .btn_green {background-color: var(--green);}
 .btn_red {background-color: var(--red);}
 .btn_yellow {background-color: var(--yellow);}
-.btn_dim {background-color: var(--dim);}
+.btn_light {background-color: var(--light);}
 .btn_dark {background-color: var(--dark);}
-.btn_shade {background-color: var(--shade);}
+.btn_gray {background-color: var(--gray);}
 .btn_white {background-color: var(--white);}
 
-/* Background */
-.bg_red {background-color: var(--red);}
-.bg_blue {background-color: var(--blue);}
-.bg_green {background-color: var(--green);}
-.bg_yellow {background-color: var(--yellow);}
-.bg_dim {background-color: var(--dim);}
-.bg_dark {background-color: var(--dark);}
-.bg_white {background-color: var(--white);}
-.bg_shade {background-color: var(--shade);}
+
 
 /* 
 -------------------
@@ -407,29 +413,8 @@ a:hover{
 
 
 
-/*
--------------
-Grid System
------------
-*/
 
-/* flex */
-.flex {display: flex;}
-.row {display: flex;}
-.row_reverse {flex-direction: row-reverse;}
-.column {flex-direction: column;}
-.column_reverse {flex-direction: column-reverse;}
-.space_between {justify-content: space-between;}
-.space_around {justify-content: space-around;}
-.justify_center {justify-content: center;}
 
-/* display */
-.hide {display: none;}
-/* items */
-.align_center {align-items: center;}
-.align_end {align-items: flex-end;}
-.align_baseline {align-items: baseline;}
-.align_start {align-items: flex-start;}
 /*************
 Table
 *************/
