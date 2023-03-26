@@ -3,238 +3,276 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-one-light.min.css"
     /> -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./style.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet"/>
+    <title>Design Source - design system</title>
+  <style>
+   .Header{
+    font-size: 160px;
+     line-height: 1;
+    font-weight: 500;
+    height: 77vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+     @media (max-width: 1080px){
+    .Header{
+      font-size: 120px;
+    }
+   }
+   @media (max-width: 900px){
+    .Header{
+      font-size: 80px;
+    }
+   }
+    @media (max-width: 750px){
+    .Header{
+      font-size: 56px;
+    }
+   }
+     @media (max-width: 480px){
+    .Header{
+      font-size: 44px;
+    }
+   }
+   .typoSec{
+    background: #ffedc8;
+   }
   
-    <title>Design System</title>
+   .typeFull{
+    font-size: 200px;
+    font-weight: 500;
+   }
+  </style>
   </head>
-  <body class="bg_dark text_white">
-    <div class="small_container font_poppins">
-       <nav class="padding_top2 flex space_between column1">
-        <p class="type3 bold2">DS</p>
-        <div class="text bold1 row space_between style_none">
-          <span class="type_none"><a
-              href="https://github.com/engsiraj/designsource"
-              class="text_white link"
-              >Github</a></span>
-         </div>
+  <body class="bg_dark white">
+    <div class="px2 oswald">
+       <nav class="pt2 flex space_between">
+         <a href="#" class="regular white ">DesignSource</a>
+         <a href="https://github.com/engsiraj/designsource" class="regular white ">Github</a>
        </nav>
-
-      <header class="margin_top8 text_center margin_bottom8">
-        <div class="wide5 margin_auto">
-          <p class="type2 bold2 margin_bottom2">Design Source UI Design system 🚧</p>
-          <p class="text margin_bottom3">
-         User Interface Design System built in html/css and flexbox for consistent user interfaces</p>
-          <button 
-            class=" btn_medium bg_green round "><a class="text text_white bold2" href="https://github.com/engsiraj" >Get started</a>
-          </button>
-        </div>
-      </header>
-
-    <!-- todo: layout nav -->
-    <!-- <section class="margin_top8 ">
-      <p class=" type3 bold1 margin_bottom2">layout</p>
-      <div class="row space_between">
-      <div class="col3 border round border_green padding2 margin_bottom1 ">
-       <p class="regular">class</p>
-       <p>name</p>
-      </div>
-      <div class="col3 border round border_green padding2 margin_bottom1 ">
-       <p class="regular">class</p>
-       <p>name</p>
-      </div>
-      <div class="col3 border round border_green padding2 margin_bottom1 ">
-       <p class="regular">class</p>
-       <p>name</p>
-      </div>
-      </div> -->
-      <!-- todo: components nav -->
-      <!-- <p class=" type3 bold1  margin_top2">Components</p>
-      <div class="row space_between margin_top2">
-      <div class="col4 border round border_green padding2 margin_bottom1">
-       <p class="regular">class</p>
-       <p>name</p>
-      </div>
-      <div class="col4 border round border_green padding2 margin_bottom1">
-       <p class="regular">class</p>
-       <p>name</p>
-      </div>
-      <div class="col4 border round border_green padding2 margin_bottom1">
-       <p class="regular">class</p>
-       <p>name</p>
-      </div>
-      <div class="col4 border round border_green padding2 margin_bottom1">
-       <p class="regular">class</p>
-       <p>name</p>
-      </div>
-      </div>
-      <div class="row space_between margin_top2">
-      <div class="col4 border round border_green padding2 margin_bottom1">
-       <p class="regular">class</p>
-       <p>name</p>
-      </div>
-      <div class="col4 border round border_green padding2 margin_bottom1">
-       <p class="regular">class</p>
-       <p>name</p>
-      </div>
-      <div class="col4 border round border_green padding2 margin_bottom1">
-       <p class="regular">class</p>
-       <p>name</p>
-      </div>
-      <div class="col4 border round border_green padding2 margin_bottom1">
-       <p class="regular">class</p>
-       <p>name</p>
-      </div>
-    </section> -->
-      <!-- todo: intro section -->
-      <!-- <div class="margin_top8">
-        <p class="type2 bold2 margin_bottom4">introduction</p>
-        <div class="flex">
-          <a href="/" class="link text_white">here</a>
-          <a href="/" class="link text_white margin_start5">here</a>
-          <a href="/" class="link text_white margin_start5">here</a>
-        </div>
-        <hr />
-        <p class="text margin_bottom3 margin_top3">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga commodi
-          eum dolorum neque doloribus sint eius! Corrupti, rerum natus
-        </p>
-        <p class="regular bold1 margin_bottom2">Features</p>
-        <p class="text margin_bottom3">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga commodi
-          eum dolorum neque doloribus sint eius! Corrupti, rerum natus
-        </p>
-        <div class="margin_bottom2">
-          <li class="type_circle">this is li</li>
-          <li class="type_circle">this is li</li>
-          <li class="type_circle">this is li</li>
-          <li class="type_circle">this is li</li>
-          <li class="type_circle">this is li</li>
-          <li class="type_circle">this is li</li>
-        </div>
-        <p class="regular bold1 margin_bottom2">resources and assets</p>
-        <p class="text margin_bottom3">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga commodi
-          eum dolorum neque doloribus sint eius! Corrupti, rerum natus
-        </p>
-        <p class="regular bold1 margin_bottom2">author</p>
-        <p class="text margin_bottom3">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga commodi
-          eum dolorum neque doloribus sint eius! Corrupti, rerum natus
-        </p>
-      </div> --->
-      <!-- todo: layout section -->
-      <!-- <div class="margin_top8">
-        <p class="type2 bold2 margin_bottom4">layout</p>
-         <div class="flex">
-          <a href="/" class="link text_white">typography</a>
-          <a href="/" class="link text_white margin_start5">color</a>
-          <a href="/" class="link text_white margin_start5">grid</a>
-        </div>
-        <hr />
-        <p class="text margin_bottom3 margin_top3">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga commodi
-          eum dolorum neque doloribus sint eius! Corrupti, rerum natus
-        </p> -->
-        <!--  todo: typography -->
-        <!-- <p class="type3 bold1 margin_bottom2">typography</p>
-        <p class="text margin_bottom3">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga commodi
-          eum dolorum neque doloribus sint eius! Corrupti, rerum natus
-        </p>
-         <div class="margin_bottom2">
-          <li class="type_circle">this is li</li>
-         </div>
-        <p class="regular bold1 margin_bottom2">font</p>
-        <p class="regular bold1 margin_bottom2">size</p>
-        <p class="regular bold1 margin_bottom2">weight</p>
-        <p class="regular bold1 margin_bottom2">style</p>
-        <p class="regular bold1 margin_bottom2">align</p>
-        <p class="regular bold1 margin_bottom2">color</p>
-      -->
-          <!--  todo: color -->
-        <!-- <p class="type3 bold1 margin_bottom2">colors</p>
-        <p class="text margin_bottom3">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga commodi
-          eum dolorum neque doloribus sint eius! Corrupti, rerum natus
-        </p>
-        <p class="regular bold1 margin_bottom2">brand colors</p>
-        <div class="flex space_between margin_top4">
-            <div class="text_center">
-              <div class="padding3 margin_bottom1 round bg_blue"></div>
-              color
-            </div>
-              <div>
-              <div class="padding3 margin_bottom1 round bg_red"></div>
-              color
-            </div>
-              <div>
-              <div class="padding3 margin_bottom1 round bg_green"></div>
-              color
-            </div>
-              <div>
-              <div class="padding3 margin_bottom1 round bg_yellow"></div>
-              color
-            </div>
-              <div>
-              <div class="padding3 margin_bottom1 round bg_dark border border_yellow"></div>
-              color
-            </div>
-              <div>
-              <div class="padding3 margin_bottom1 round bg_white"></div>
-              color
-            </div>
-              <div>
-              <div class="padding3 margin_bottom1 round bg_shade "></div>
-              color
-            </div>
-              <div>
-              <div class="padding3 margin_bottom1 round bg_dim"></div>
-              color
-            </div>
-        </div>
-          <p class="regular bold1 margin_bottom2 margin_top3"> colors classses</p>
-           <div class="margin_bottom2">
-          <li class="type_circle">this is li</li>
-          <li class="type_circle">this is li</li>
-        </div>
-      -->
-        <!--  todo: grid -->
-     <!-- <p class="type3 bold1 margin_bottom2">grid</p>
-          <p class="text margin_bottom3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga commodi
-            eum dolorum neque doloribus sint eius! Corrupti, rerum natus
-          </p>
-          <p class="regular bold1 margin_bottom2 margin_top3">classses</p>
-           <div class="margin_bottom2">
-            <li class="type_circle">this is li</li>
-            <li class="type_circle">this is li</li>
-           </div>
-          <p class="regular bold1 margin_bottom2 margin_top3">col</p>
-          <p class="regular bold1 margin_bottom2 margin_top3">wide?</p>
-        -->
- <!--  todo: helper classes  -->
-        <!-- <p class="type3 bold1 margin_bottom2">Helper classes</p>
-        <p class="text margin_bottom3">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga commodi
-          eum dolorum neque doloribus sint eius! Corrupti, rerum natus
-        </p>
-          <p class="regular bold1 margin_bottom2 margin_top3">flex</p>
-            <div class="margin_bottom2">
-            <li class="type_circle">this is li</li>
-            <li class="type_circle">this is li</li>
-            </div>
-          <p class="regular bold1 margin_bottom2 margin_top3">spaces?</p>
-            <div class="margin_bottom2">
-            <li class="type_circle">this is li</li>
-            <li class="type_circle">this is li</li>
-          </div> -->
+       <div class="Header">
+        <p class="">DESIGN SOURCE</p>
     </div>
+    <div class="row space_between pb8">
+
+      <div class="p1 mb5 border1 border_gray round col4 ">
+        <a href="" class="type5 uppercase white ">typography</a>
+        <p class="text poppins">Lorem ipsum dolor sit.</p>
+      </div>
+
+      <div class="p1 mb5 border1 border_gray round col4 ">
+        <a href="" class="type5 uppercase white ">layout</a>
+        <p class="text poppins">Lorem ipsum dolor sit.</p>
+      </div>
+
+      <div class="p1 mb5 border1 border_gray round col4 ">
+        <a href="" class="type5 uppercase white ">color</a>
+        <p class="text poppins">Lorem ipsum dolor sit.</p>
+      </div>
+
+       <div class="p1 mb5 border1 border_gray round col4 ">
+        <a href="" class="type5 uppercase white ">components</a>
+        <p class="text poppins">Lorem ipsum dolor sit.</p>
+      </div>
+  
+    </div>
+  </div>
+    <div class="typoSec oswald dark">
+       <div class="px2 py1">
+       <div class="row">
+        <div class="col2 mt4">
+           <p class="typeFull">Aa</p>
+           <p class="regular mt3">Letters</p>
+           <p class="type2 mb4">Aa Bb Cc Dd Ee Ff Gg</p>
+           <p class="regular">Numbers</p>
+           <p class="type2">1 2 3 4 5 6 7 8 9</p>
+       </div>
+        <div class="col2 mt4">
+          <p class="type4 ">The <span class="strong"> '.oswald' </span> and <span class="strong"> '.poppins' </span> are the google fonts used in desing source design system.</p>
+
+           <p class="regular mt3 poppins ">for <span class="italic code">.italic</span>,<span class="strong code">.strong </span>,<span class="bold code"> .bold </span>, <span class="bolder code">.bolder </span>, <span class="code">.uppercase</span> for <span class="uppercase">uppercase </span> and for <span class="code"> .code </span> and <span class="keyboard">.keyboard </span> for shortcuts and to align text <span class="code">.center </span>,<span class="code">.left </span> and <span class="code">.right </span> classes.</p>
+
+          <p class="type1">.type1</p>
+          <p class="type2">.type2</p>
+          <p class="type3">.type3</p>
+          <p class="type4">.type4</p>
+          <p class="type5">.type5</p>
+          <p class="regular">.regular</p>
+          <p class="text">.text</p>
+       </div>
+       </div>
+       
+       </div>
+    </div>
+       <div class=" px2 py1 poppins">
+         <p class="type2 oswald">Layouts</p>
+         <p class="regular  w8 pt1">layout classes for creating superfast ui and webpage using design source.</p>
+
+         <div class="row space_between pt2">
+          <div class="col2">
+            <p class="type4 pt3 oswald">margins</p>
+         <p class="regular pt2 pb2">margin of 6px unit is defined to the classes <span class="code"> m </span>as all around, <span class="code"> mt </span> for top, <span class="code"> mb </span> for bottom, <span class="code"> ml </span> for left and<span class="code"> mr </span> for right.</p>
+            <li class="ls_circle">margin:
+              <span class="code">m</span>,
+              <span class="code">m1</span>,
+              <span class="code">m2</span>,
+              <span class="code">m3</span>,
+              <span class="code">m4</span>,
+              <span class="code">m5</span>,
+              <span class="code">m6</span>,
+              <span class="code">m7</span>and
+              <span class="code">m8</span>.
+            </li>
+            <li class="ls_circle">x-aixs:
+              <span class="code">mx1</span>,
+              <span class="code">mx2</span>,
+              <span class="code">mx3</span>and y-aixs:
+              <span class="code">my1</span>,
+              <span class="code">my2</span>,
+              <span class="code">my3</span>.
+             </li>
+          </div>
+          <div class="col2">
+            <p class="type4 pt3 oswald">paddings</p>
+            <p class="regular pt2 pb2">margin of 6px unit is defined to the classes <span class="code"> p </span>as all around, <span class="code"> pt </span> for top, <span class="code"> pb </span> for bottom, <span class="code"> pl </span> for left and<span class="code"> pr </span> for right.</p>
+            <li class="ls_circle">padding:
+              <span class="code">p</span>,
+              <span class="code">p1</span>,
+              <span class="code">p2</span>,
+              <span class="code">p3</span>,
+              <span class="code">p4</span>,
+              <span class="code">p5</span>,
+              <span class="code">p6</span>,
+              <span class="code">p7</span>and
+              <span class="code">p8</span>.
+            </li>
+            <li class="ls_circle">x-aixs:
+              <span class="code">px1</span>,
+              <span class="code">px2</span>,
+              <span class="code">px3</span>and y-aixs:
+               <span class="code">py1</span>,
+              <span class="code">py2</span>,
+              <span class="code">py3</span>.
+             </li>
+          </div>
+         </div>
+
+        <div class="row space_between pt2">
+          <div class="col2">
+            <p class="type4 pt3 oswald">widths</p>
+          <p class="regular pt2 pb2">width is equally devided as 10% to 90% where 10% is   <span class="code">w1</span> and its goes to  <span class="code">w9</span>.</p>
+            <li class="ls_circle">widths:
+              <span class="code">w1</span>,
+              <span class="code">w2</span>,
+              <span class="code">w3</span>,
+              <span class="code">w4</span>,
+              <span class="code">w5</span>,
+              <span class="code">w6</span>,
+              <span class="code">w7</span>,
+              <span class="code">w8</span>and
+              <span class="code">w9</span>.
+            </li>
+          </div>
+          <div class="col2">
+            <p class="type4 pt3 oswald">columns </p>
+            <p class="regular pt2 pb2">columuns are equally devided space on the canvas its devide the 100% space into equall columns as,</p>
+           <li class="ls_circle">columns:
+              <span class="code">col1</span>for 100%,
+              <span class="code">col2</span>for 100%/2,
+              <span class="code">col3</span>for 100%/3,
+              <span class="code">col4</span>for 100%/4,
+              <span class="code">col5</span>for 100%/5,
+              <span class="code">col6</span>for 100%/6,
+              <span class="code">col7</span>for 100%/7,
+              <span class="code">col8</span>and for 100%/8.
+            </li>
+          </div>
+         </div>
+          <div class="col2">
+            <p class="type4 pt3 oswald">borders/corners </p>
+            <p class="regular pt2 pb2">borders are <span class="code">bl</span>is for left,<span class="code">br</span>is for right,<span class="code">bb</span>is for bottom and <span class="code">bt</span>is for top given by classes as:</p>
+           <li class="ls_circle">borderswidth:
+             <span class="code">border</span>is 1px solid,
+              <span class="code">border1</span>is 2px solid,
+              <span class="code">border2</span>is 3px solid, 
+              <span class="code">border3</span>is 4px solid 
+           </li>
+            <li class="ls_circle">borderradius:
+             <span class="code">round</span>is ,
+             <span class="code">rounded</span>is  and
+            <span class="code">circular</span>is .
+           </li>
+            <li class="ls_circle">bordercolor:
+             <span class="code">border_color</span> color defined as name of color in desing system.
+           </li>
+          </div>
+         </div>
+         
+       </div>
+
+    <div class="typoSec px2 py1 poppins dark">
+       <p class="type2 oswald pb2 ">Colors</p>
+     <div class="row space_between" >
+       <div class="flex space_between w5">
+
+         <div class="border1 border_blue col4 mb2 shadow1">
+          <div class="p5 bg_blue"></div>
+          <p class=" mt1  ml1 ">color</p>
+          <p class="mb1 ml1 blue ">blue</p>
+          </div>
+
+          <div class="border1 border_green col4 mb2 shadow1">
+          <div class="p5 bg_green"></div>
+          <p class=" mt1  ml1 ">color</p>
+          <p class="mb1 ml1 green ">blue</p>
+          </div>
+
+          <div class="border1 border_red col4 mb2 shadow1">
+          <div class="p5 bg_red"></div>
+          <p class=" mt1  ml1 ">color</p>
+          <p class="mb1 ml1 red ">blue</p>
+          </div>
+
+          <div class="border1 border_yellow col4 mb2 shadow1">
+          <div class="p5 bg_yellow"></div>
+          <p class=" mt1  ml1 ">color</p>
+          <p class="mb1 ml1 yellow ">blue</p>
+          </div>
+          
+       </div>
+        <div class="flex space_between col2">
+          <div class="border1 border_dark col4 mb2 shadow1">
+          <div class="p5 bg_dark "></div>
+          <p class=" mt1  ml1 ">color</p>
+          <p class="mb1 ml1 dark ">blue</p>
+          </div>
+          <div class="border1 border_gray col4 mb2 shadow1">
+          <div class="p5 bg_gray"></div>
+          <p class=" mt1  ml1 ">color</p>
+          <p class="mb1 ml1 gray ">blue</p>
+          </div>
+          <div class="border1 border_gray col4 mb2 shadow1">
+          <div class="p5 bg_light bb1 border_gray "></div>
+          <p class=" mt1  ml1 ">color</p>
+          <p class="mb1 ml1 gray ">blue</p>
+          </div>
+          <div class="border1 border_gray col4 mb2 shadow1">
+          <div class="p5 bg_white bb1 border_gray"></div>
+          <p class=" mt1  ml1 ">color</p>
+          <p class="mb1 ml1 gray ">blue</p>
+          </div>
+          </div>
+
+          </div>
+    </div>
+     
+
   </body>
 </html>
