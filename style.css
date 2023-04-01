@@ -1,21 +1,36 @@
-/* 
-----------------
-todo style.css 22/3/22
-* re-creating classes etc
-------------------
+/* ! typography
+* fonts: oswald,poppins
+* fontsize: type1,type2,type3,type4,type5,regular,text
+* fontweight: strong,bold,bolder
+* fontstyle: italic
+* aligntext: left,right,center
+* texttransform: uppercase
+* colors: blue,green,red,yellow,white,dark,gray,light
+* code,keyboard
+ ! Layout 
+* margins: m,m1,m2,m3,m4,m5,m6,m7,m8,mx1,mx2,mx3,my1,my2,my3
+* paddings: p,p1,p2,p3,p4,p5,p6,p7,p8,px1,px2,px3,py1,py2,py3
+* widths: w1,w2,w3,w5,w6,w7,w8,w9
+* columns: col1,col2,col3,col4,col5,col6,col7,col8
+ flex: classes are not added in docs
+ ! borders
+* borders: border,border1,border2,border3
+* borderleft: bl,bl1,bl2,bl3
+* borderight: br,br1,br2,br3
+* bordertop: bt,bt1,bt2,bt3
+* borderbottom: bb,bb1,bb2,bb3
+* borderradius: round,rounded,circular
+* colors: border_blue,border_green,border_red,border_yellow,border_white,border_dark,border_gray,border_light
+ ! components and helper
+* shadow:shadow1,shadow2,shadow3,shadow4,shadow5
+* button: btn and btn_sm,btn_md,btn_lg,btn_icon
 */
 
-/*   ! fonts
-------------
-- oswald
-- poppins
-------------
-*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* css reset */
-
 *,*:before,*:after {box-sizing: border-box;}
 body,h1,h2,h3,h4,h5,figure,picture,p,div,a {margin: 0;padding: 0;}
 body {
@@ -34,6 +49,21 @@ input,button,select,a{font: inherit;}
     scroll-behavior: auto !important;
   }
 }
+
+/* DS */
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  opacity: .6;
+  transition: ease-in 300ms;
+  transition: ease-out 300ms;
+}
+table {border-collapse: collapse;}
+table tr:nth-child(even) {background-color: var(--shade);}
+table tr:hover {background-color: var(--shade);}
+code[class*="language-"],pre[class*="language-"] {font-size: 14px;}
 /* variables */
 :root {
   /* fontsize  */
@@ -61,31 +91,6 @@ input,button,select,a{font: inherit;}
   --round: 0.75rem;
   --circle: 99em;
 }
-
-/* ! typography
-* fonts: oswald,poppins
-* fontsize: type1,type2,type3,type4,type5,regular,text
-* fontweight: strong,bold,bolder
-* fontstyle: italic
-* aligntext: left,right,center
-* texttransform: uppercase
-* colors: blue,green,red,yellow,white,dark,gray,light
-* code,keyboard
- ! Layout 
-* margins: m,m1,m2,m3,m4,m5,m6,m7,m8,mx1,mx2,mx3,my1,my2,my3
-* paddings: p,p1,p2,p3,p4,p5,p6,p7,p8,px1,px2,px3,py1,py2,py3
-* widths: w1,w2,w3,w5,w6,w7,w8,w9
-* columns: col1,col2,col3,col4,col5,col6,col7,col8
- ! borders
-* borders: border,border1,border2,border3
-* borderleft: bl,bl1,bl2,bl3
-* borderight: br,br1,br2,br3
-* bordertop: bt,bt1,bt2,bt3
-* borderbottom: bb,bb1,bb2,bb3
-* borderradius: round,rounded,circular
-* colors: border_blue,border_green,border_red,border_yellow,border_white,border_dark,border_gray,border_light
-
-*/
 
 .poppins {font-family: Poppins;}
 .oswald {font-family: Oswald;}
@@ -332,48 +337,22 @@ ol{list-style-type: decimal;}
 .align_baseline {align-items: baseline;}
 .align_start {align-items: flex-start;}
 
+/* ! component & helpers*/
+.shadow1 {box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;}
+.shadow2 {box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;}
+.shadow3 {box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;}
+.shadow4 {box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;}
+.shadow5 {box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;}
 
-/* 
--------------------
-! Buttons
--------------------
-*/
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-/* hover  */
-a:hover{
-  opacity: .6;
-  transition: ease-in 300ms;
-  transition: ease-out 300ms;
-}
-/* buttons  */
-.btn_medium {
-  padding: 7px 18px;
+.btn {
   font-size: var(--text);
   border: none;
   cursor: pointer;
 }
-.btn_small {
-  padding: 4px 9px;
-  font-size: var(--text);
-  border: none;
-  cursor: pointer;
-}
-.btn_large {
-  padding: 12px 20px;
-  font-size: var(--text);
-  border: none;
-  cursor: pointer;
-}
-.btn_icon{
-  padding: 8px 10px;
-  font-size: var(--text);
-  border: none;
-  cursor: pointer;
-}
+.btn_sm {padding: 4px 9px;}
+.btn_md {padding: 7px 18px;}
+.btn_lg {padding: 12px 20px;}
+.btn_icon{padding: 8px 10px;}
 
 .btn_blue {background-color: var(--blue);}
 .btn_green {background-color: var(--green);}
@@ -384,54 +363,9 @@ a:hover{
 .btn_gray {background-color: var(--gray);}
 .btn_white {background-color: var(--white);}
 
-
-
-/* 
--------------------
-! Shadows
--------------------
-*/
-.shadow1 {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-}
-.shadow2 {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-}
-.shadow3 {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-}
-.shadow4 {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-}
-.shadow5 {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-}
-
-
-
-
-
-/*************
-Table
-*************/
-table {border-collapse: collapse;}
-table tr:nth-child(even) {background-color: var(--shade);}
-table tr:hover {background-color: var(--shade);}
-/*************
-Responsive Design 
-*************/
-
+/* ! Responsive Design */
 @media (max-width: 750px) {
   .row {flex-direction: column;}
   .w1,.w2,.w3,.w4,.w5,.w6,.w7,.w8,.w9 {width: 100%;}
-  .col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8{
-    width:100%;
-  }
+  .col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8{width:100%;}
 }
-
-/* ? code snippets  */
-code[class*="language-"],pre[class*="language-"] {font-size: 14px;}
