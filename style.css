@@ -20,7 +20,7 @@
 * borderight: br,br1,br2,br3
 * bordertop: bt,bt1,bt2,bt3
 * borderbottom: bb,bb1,bb2,bb3
-* borderradius: round,rounded,circular
+* borderradius: round,round1,round2,circular. (not aqdded in docs) 
 * colors: border_blue,border_green,border_red,border_yellow,border_white,border_dark,border_gray,border_light
  ! components and helper
 * shadow:shadow1,shadow2,shadow3,shadow4,shadow5
@@ -89,8 +89,6 @@ code[class*="language-"],pre[class*="language-"] {font-size: 14px;}
   --gray: #626f7a;
   --light: #f3f3f3;
   /* borderradius */
-  --round: 0.75rem;
-  --circle: 99em;
 }
 
 .poppins {font-family: Poppins;}
@@ -303,9 +301,11 @@ ol{list-style-type: decimal;}
 .bb3 {border-bottom: 4px solid;}
 
 
-.round {border-radius: var(--round);}
-.rounded {border-radius: var(--round);}
-.circular {border-radius: var(--circle);}
+.round {border-radius:.25rem; }
+.round1 {border-radius:0.5rem; }
+.round2 {border-radius: 0.75rem; }
+.circular {border-radius:99em;}
+
 
 .border_red {border-color: var(--red);}
 .border_blue {border-color: var(--blue);}
