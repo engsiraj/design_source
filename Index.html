@@ -1,5 +1,4 @@
-
-  <!-- <link
+<!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-one-light.min.css"
     /> -->
@@ -8,40 +7,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="theme-color" content="#323b44"/>
+    <meta name="theme-color" content="rgba(0, 0, 0, 0.87)"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./style.css" rel="stylesheet"/>
     <title>Design Source | design system</title>
   <style>
     
    .Header{
-    font-size: 160px;
-     line-height: 1;
-    font-weight: 500;
     height: 77vh;
     display: flex;
     justify-content: center;
     align-items: center;
    }
-     @media (max-width: 1080px){
-    .Header{
-      font-size: 120px;
-    }
-   }
-   @media (max-width: 900px){
-    .Header{
-      font-size: 80px;
-    }
-   }
-    @media (max-width: 750px){
-    .Header{
-      font-size: 56px;
-    }
-   }
-     @media (max-width: 480px){
-    .Header{
-      font-size: 44px;
-    }
+   img{
+    width: 100%;
    }
    .typoSec{
     background: #ffedc8;
@@ -57,35 +36,40 @@
     <div class="px2 oswald">
        <nav class="pt2 flex space_between">
          <a href="#typo" class="regular white ">DesignSource</a>
-         <a href="https://github.com/engsiraj/designsource" target="_blank" class="regular white ">Github</a>
+         <div>
+          <a href="https://github.com/engsiraj/designsource" target="_blank" class="regular white ">Github</a>
+         <!-- <a href="./page/component.html" target="_blank" class="ml5 regular white ">Components</a> -->
+         </div>
        </nav>
        <div class="Header">
-        <p class="">DESIGN SOURCE</p>
+        <img src="image/header.png">
+
     </div>
     <div class="row space_between pb8">
 
-      <div class="p1 mb5 border1 border_gray round col4 ">
+      <div class="p1 mb5 border1 border_white round1 col4 ">
         <a href="#typo" class="type5 uppercase white ">typography</a>
-        <p class="text poppins">font size and styles</p>
+        <p class="text poppins light">font size and styles</p>
       </div>
 
-      <div class="p1 mb5 border1 border_gray round col4 ">
+      <div class="p1 mb5 border1 border_white round1 col4 ">
         <a href="#layout" class="type5 uppercase white ">layout</a>
-        <p class="text poppins">layout space and width</p>
+        <p class="text poppins light">layout space and width</p>
       </div>
 
-      <div class="p1 mb5 border1 border_gray round col4 ">
+      <div class="p1 mb5 border1 border_white round1 col4 ">
         <a href="#color" class="type5 uppercase white ">color</a>
         <p class="text poppins">brand and design system colors</p>
       </div>
 
-       <div class="p1 mb5 border1 border_gray round col4 ">
+       <div class="p1 mb5 border1 border_white round1 col4 ">
         <a class="type5 uppercase white" target="_blank">components</a>
         <p class="text poppins">coming soon</p>
       </div>
   
     </div>
   </div>
+
     <div class="typoSec oswald dark">
        <div class="px2 py1" id="typo">
        <div class="row">
@@ -110,8 +94,8 @@
           <p class="text">.text</p>
        </div>
        </div>
-       
        </div>
+
     </div>
        <div class=" px2 py1 poppins" id="layout">
          <p class="type2 oswald">Layouts</p>
@@ -255,12 +239,12 @@
           <div class="border1 border_dark col4 shadow1" style="margin:5px">
           <div class="p5 bg_dark "></div>
           <p class=" mt1  ml1 ">Coal Dark</p>
-          <p class="mb1 ml1 dark ">dark</p>
+          <p class="mb1 ml1 dark ">.dark</p>
           </div>
          <div class="border1 border_gray col4 shadow1" style="margin:5px">
           <div class="p5 bg_gray"></div>
           <p class=" mt1  ml1 ">Dark Shade</p>
-          <p class="mb1 ml1 gray ">gray</p>
+          <p class="mb1 ml1 gray ">.gray</p>
           </div>
          <div class="border1 border_gray col4 shadow1" style="margin:5px">
           <div class="p5 bg_light bb1 border_gray "></div>
@@ -276,7 +260,7 @@
           </div>
     </div>
        <div class="p2 poppins white">
-         <p class="flex justify_center">Created By<a href="https://twitter.com/engsiraj_" class="white pl1" target="_blank">@engsiraj</a></p>
+         <p class="flex justify_center">Created By<a href="https://twitter.com/engsiraj_" class="white pl1" target="_blank">@engsiraj_</a></p>
        </div>
   </body>
 </html>
