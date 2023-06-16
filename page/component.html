@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href='../style.css' rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-one-light.min.css"/>
+    <title>Design Source | Components</title>
+</head>
+
+<body>
+<!-- Global Style  -->
+    <div class="px2 oswald dark">
+    <!-- Compnents Navigation  -->
+        <nav class="flex space_between grid1">
+             <p class="type3 margin_top2 bolder">DS</p>
+            <ul class="type5 margin_top2 width4 flex space_between style_none">
+                <li><a href="../Index.html" class="text_dark link">Home</a></li>
+                <li><a href="https://github.com/engsiraj/designsource" class="text_dark link">Github</a></li>
+            </ul>
+        </nav>
+
+        <header class="poppins w6 py1">
+          <p class="type4 bold">Design Source<br> design system for developers</p>
+          <p class="regular mt1">Using a user-friendly user interface design system, you can customize your design</p>
+        </header>
+
+        <div class="mt1 pt1 mb2 bolder regular poppins">
+            <a class="text_blue link" href="#nav">Navigation</a> |
+            <a class="text_blue link" href="#header">Header</a> |
+            <a class="text_blue link" href="#sidebar">Side Bar</a> |
+            <a class="text_blue link" href="#divider">Divider</a> | 
+            <a class="text_blue link" href="#table">Table</a> |
+            <a class="text_blue link" href="#profile">Profile Badge</a> |
+            <a class="text_blue link" href="#colors">Color Swatches</a> |
+            <a class="text_blue link" href="#code">Code </a> |
+            <a class="text_blue link" href="#alert">Alert </a> |
+            <a class="text_blue link" href="#card">Price cards</a> |
+            <a class="text_blue link" href="#stat">States</a> |
+            <a class="text_blue link" href="#feat">Feature</a> 
+
+        </div>
+ <!-- update section -->
+         <div class="margin_top1 grid1 padding2 margin_bottom3 bg_shade border3 border_green text_dark">
+            <p class="type5 bolder margin_bottom3 text_green">Long time no see?</p>
+            <ul>
+            <li class="type6">Now updates will come continuesly in random days stay tuned with <strong>Design Source.</strong></li>
+            </ul>
+            
+        </div>
+ <!--  Navigation -->
+        <div class="margin_top1 margin_bottom2" id="nav">
+            <p class="type4 bolder margin_bottom2">Navigation
+                <a class="text_shade type5 bold link" href="#nav">#</a> 
+            </p>
+            <p class="type5 margin_bottom2">basic navigation bar for simple website. Responsive navigation is under its building process.</p>
+            <div class="padding2 grid1 border3">
+                  <nav class=" margin0 flex space_between grid1">
+                      <p class="type4 bold">Logo</p>
+                      <ul class=" margin0 type5 grid2 flex space_between style_none">
+                          <li>link1</li>
+                          <li>link2</li>
+                          <li>link3</li>
+                      </ul>
+                  </nav>
+            </div>
+            <div class= "margin_top2 grid1">
+                <pre><code class="language-html">&lt;nav class="flex space_between grid1"&gt;
+  &lt;p class="type4 margin_top2 bold"&gt;...&lt;/p&gt;
+ &lt;ul class="type5 margin_top2 grid2 flex space_between style_none"&gt;
+  &lt;li&gt;...&lt;/li&gt;
+  &lt;li&gt;...&lt;/li&gt;
+  &lt;li&gt;...&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+            </div>
+        </div>
+ <!--  Header  -->
+        <div class="margin_top1 margin_bottom2" id="header">
+            <p class="type4 bolder margin_bottom2">Header
+                <a class="text_shade type5 bold link" href="#header">#</a> 
+            </p>
+            <p class="type5 margin_bottom2">this is example header page of design source you can build even awesome form the design source design system</p>
+            <div class="padding2 grid1 border3">
+        <header class="width6">
+                <p class="type3 bolder">The Design Source <br> For developers by developer.</p>
+                <p class="type5 margin_top2">Using a user-friendly user interface design system, you can customize your design.</p>
+                <button class="margin_top2 type6 btn_large btn_blue round3 bolder hvr_white"><a
+                        class="text_white" href="#">Get Started</a></button>
+                <button
+                    class=" margin_start3 margin_top2 type6 btn_large btn_shade round3 bolder"><a
+                        class="text_dark" href="#">Components</a></button>
+        </header>    
+            </div>
+            <div class= "margin_top2 type6">
+<pre><code class="language-html">&lt;header class="width6"&gt;
+  &lt;p class="type3 bolder"&gt;...&lt;/p&gt;
+  &lt;p class="type5 margin_top2"&gt;...&lt;/p&gt;
+  &lt;button class="margin_start3 margin_top2 margin_bottom2
+  type6 btn_large btn_blue text_white round2 bolder"&gt;...&lt;/button&gt;
+  &lt;button class="margin_start3 margin_top2 margin_bottom2 
+  type6 btn_large btn_shade round2 bolder"&gt;...&lt;/button&gt;
+&lt;/header&gt;</code></pre>
+            </div>
+            </div>
+ <!--  Side bar  -->
+ <div class="margin_top1 margin_bottom1" id="sidebar">
+       <p class="margin_top2 type4 bolder margin_bottom2">Side Bar
+                <a class="text_shade type5 bold link" href="#sidebar">#</a> 
+        </p>
+     <p class="type5 margin_bottom1">there are no extra classes added for the dashboard we can simply create it through the classes already in use by design system</p>
+     <div class="grid1 flex">
+         <div style="height:300px;" class="width3 type6 bolder padding2 margin_bottom3 bg_blue text_white">text here</div>
+         <div style="height:300px;" class="width7 type6 bolder padding2 margin_bottom3 bg_red text_white">some text here</div>
+     </div>
+ </div>
+<!--  Divider Sections -->
+     <div class="margin_top1 margin_bottom1" id="divider">
+      <p class="margin_top2 margin_bottom2 type4 bolder">Dividers
+         <a class="text_shade type5 bold link" href="#divider">#</a>
+      </p>
+      <p class="type5 margin_bottom1 ">divider are basically horizental row to add both vertical and horizental divider will be added in next update</p>
+    <div class="row space_between">
+      <div class="padding_end2 width5">
+      <div>
+        <p class="margin_top3 margin_bottom3 type5 bolder">Section</p>
+        <p class="type5 margin_bottom2 ">some text here</p>
+      </div>
+      <hr/>
+      <div>
+        <p class="margin_top3 margin_bottom3 type5 bolder">Section</p>
+        <p class="type5 margin_bottom2 ">some text here </p>
+      </div>
+     <hr/>
+     <div>
+        <p class="margin_top3 margin_bottom3 type5 bolder">Section</p>
+        <p class="type5 margin_bottom2 ">some text here</p>
+      </div>
+    </div>
+    <div class="padding_start2 width5">
+     <pre><code class="language-html"> &lt;p class="type5 bolder"&gt;...&lt;/p&gt;
+ &lt;p class="type5"&gt;...&lt;/p&gt;
+ &lt;hr/&gt;
+ &lt;p class="type5 bolder"&gt;...&lt;/p&gt;
+ &lt;p class="type5"&gt;...&lt;/p&gt;
+ &lt;hr/&gt;
+ &lt;p class="type5 bolder"&gt;...&lt;/p&gt;
+ &lt;p class="type5"&gt;...&lt;/p&gt;</code><pre/></div>
+</div>
+<!--  Table -->
+<div class="margin_top1 margin_bottom1" id="table">
+    <p class="margin_top2 margin_bottom2 type4 bolder">Table
+         <a class="text_shade type5 bold link" href="#table">#</a>
+    </p>
+    <p class="type5 margin_bottom1 ">Table willbe as given code basic way the table style is under process will be updated in few updates although we will still use the same classes.</p>
+<table class="grid1">
+    <tr>
+        <th class="border3 border_dim text_start bg_green padding3 text_white">Name</th>
+        <th class="border3 border_dim text_start bg_green padding3 text_white">Address</th>
+        <th class="border3 border_dim text_start bg_green padding3 text_white">Company</th>
+    </tr>
+    <tr>
+        <td class=" border3 border_dim padding3 ">Futterk</td>
+        <td class=" border3 border_dim padding3 ">kiste</td>
+        <td class=" border3 border_dim padding3 ">Alfreds</td>
+    </tr>
+    <tr>
+        <td class=" border3 border_dim padding3 ">Alfreds</td>
+        <td class=" border3 border_dim padding3 ">Alfreds</td>
+        <td class=" border3 border_dim padding3 ">Alfreds</td>
+    </tr>
+    <tr>
+        <td class=" border3 border_dim padding3 ">Alfreds</td>
+        <td class=" border3 border_dim padding3 ">Alfr</td>
+        <td class=" border3 border_dim padding3 ">erkiste</td>
+    </tr>
+    <tr>
+        <td class=" border3 border_dim padding3 ">Ali ahemad</td>
+        <td class=" border3 border_dim padding3 ">name</td>
+        <td class=" border3 border_dim padding3 ">table here </td>
+    </tr>
+</table >
+  <pre><code class="language-html">&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th &gt;...&lt;/th&gt;
+        &lt;th &gt;...&lt;/th&gt;
+        &lt;th &gt;...&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;...&lt;/td&gt;
+        &lt;td&gt;...&lt;/td&gt;
+        &lt;td &gt;...&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+</pre></code>
+</div>
+<!-- Profile badge  -->
+<div class="margin_top1 margin_bottom1" id="profile">
+    <p class="margin_top2 margin_bottom2 type4 bolder">Profile Badge
+         <a class="text_shade type5 bold link" href="#profile">#</a>
+    </p>
+    <p class="type5 margin_bottom1 ">there is no extra classes are used for the profile badge just used the width in pixels like 
+        style="width:70px;"
+    </p>
+<div class="flex">
+    <div >
+         <img class="round1  border1 border_white"  style="width:70px; height:70px;" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="pro_image">
+    </div>
+    <div class="margin_min1">
+        <img class="round1  border1 border_white"  style="width:70px; height:70px;" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="pro_image">
+    </div>
+    <div class="margin_min1">
+        <img class="round1  border1 border_white"  style="width:70px; height:70px;" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="pro_image">
+    </div>
+    <div class="margin_min1">
+        <img class="round1  border1 border_white"  style="width:70px; height:70px;" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="pro_image">
+    </div>
+    <div class="margin_min1">
+        <img class="round1  border1 border_white"  style="width:70px; height:70px;" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="pro_image">
+    </div>
+</div>   
+</div>
+<pre><code class="language-html">&lt;div class="flex"&gt;
+&lt;div style="width:70px;"&gt;
+  &lt;img class="round1  border1 border_white"
+  style="width:70px; height:70px;" src="..."&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre></code>
+<!-- Color Swatches  -->
+<div class="margin_top1 margin_bottom1" id="colors">
+    <p class="margin_top2 margin_bottom2 type4 bolder">Color Swatches
+         <a class="text_shade type5 bold link" href="#colors">#</a>
+    </p>
+    <p class="type5 margin_bottom1 ">color swatches donot use extra classes or style</p>
+<div class="flex">
+    <div class="padding2 margin_end3 round1 bg_blue"></div>
+    <div class="padding2 margin_end3 round1 bg_green"></div>
+    <div class="padding2 margin_end3 round1 bg_red"></div>
+    <div class="padding2 margin_end3 round1 bg_shade"></div>
+    <div class="padding2 margin_end3 round1 bg_dark"></div>
+    <div class="padding2 margin_end3 round1 bg_dim"></div>
+</div>
+<pre><code class="language-html">&lt;div class="flex"&gt;
+ &lt;div class="padding2 margin_end3
+ round1 bg_blue"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre></code>
+</div>
+<!--  code  -->
+<div id="code">
+    <p class="margin_top2 margin_bottom2 type4 bolder" >Code
+         <a class="text_shade type5 bold link" href="#code">#</a>
+    </p>
+    <p class="type5 margin_bottom1 ">introduces the  class <span class="code">.code</span> to visualize the code and keyboard <span class="code">shortcuts</span> or <span class="code ">commands</span></p>
+</div>
+<!--  alert  -->
+<div id="alert">
+        <p class="margin_top2 margin_bottom2 type4 bolder">Alert 
+              <a class="text_shade type5 bold link" href="#alert">#</a>
+        </p>
+             <p class="type5 margin_bottom1 ">Alerts are based in design source classes only</p>
+      
+    <div class="margin_top1 grid1 padding2 margin_bottom3 bg_shade border3 border_blue text_dark">
+            <p class="type5 bolder margin_bottom3 text_blue">Alert</p>
+            <p class="type6">this is blue bg alert </p>
+    </div>
+<pre><code class="language-html">&lt;div class="grid1 padding2 margin_bottom3
+ bg_shade border3 border_blue text_dark"&gt;
+ &lt;p class="type5 bolder margin_bottom3 
+ text_blue"&gt;...&lt;/p&gt;
+ &lt;p class="type6"&gt;...&lt;/p&gt;
+&lt;/div&gt;
+</pre></code>
+</div>
+<!--  price cards   -->
+ <div id="card">
+   <p class="margin_top2 margin_bottom2 type4 bolder">Price cards 
+      <a class="text_shade type5 bold link" href="#card">#</a>
+   </p>
+   <p class="type5 margin_bottom1 ">Price cards are build with css classes  of design system.</p>  
+<div class="row justify_center align_center">
+    
+    <div  style="flex: 1;" class="margin3 padding2 flex align_center column justify_center border3 round3 border_shade">
+      <p class="bolder type5 margin_bottom3">card title</p>
+      <p class="type2 bold margin_bottom3">$47</p>
+      <p class="type6 text_center">Lorem ipsum dolor sit </p>
+      <p class="type6"></p>
+     <button class="margin_top2 btn_small round3 bg_blue text_white bolder ">avail offer</button>
+    </div>
+
+     <div  style="flex: 1;" class="margin3 padding2 flex align_center column justify_center border3 round3 border_shade">
+      <p class="bolder type5 margin_bottom3">card title</p>
+      <p class="type2 bold margin_bottom3">$47</p>
+      <p class="type6 text_center">Lorem ipsum dolor sit </p>
+      <p class="type6"></p>
+     <button class="margin_top2 btn_small round3 bg_blue text_white bolder ">avail offer</button>
+    </div>
+     <div  style="flex: 1;" class="margin3 padding2 flex align_center column justify_center border3 round3 border_shade">
+      <p class="bolder type5 margin_bottom3">card title</p>
+      <p class="type2 bold margin_bottom3">$47</p>
+      <p class="type6 text_center">Lorem ipsum dolor sit </p>
+      <p class="type6"></p>
+     <button class="margin_top2 btn_small round3 bg_blue text_white bolder ">avail offer</button>
+    </div>  
+</div><pre><code class="language-html">&lt;div class="row justify_center align_center"&gt;   
+&lt;div  style="flex: 1;" class="margin3 padding2 flex align_center
+column justify_center border3 round3 border_shade"&gt;
+...
+&lt;/div&gt;
+&lt;/div&gt;
+</pre></code>
+</div>
+<!-- states -->
+<div id="stat">
+   <p class="margin_top2 margin_bottom2 type4 bolder">States 
+      <a class="text_shade type5 bold link" href="#stat">#</a>
+   </p>
+   <p class="type5 margin_bottom1 ">Statistic cards are build with css classes  of design system.</p>  
+    <div class="row">
+        <div class="margin3 padding3 flex align_center column justify_center round3 bg_shade" style="flex: 1;">
+        <p class="type1 bolder">9.4k</p>
+        <p class="type5 bold">Downloads</p>
+        </div>
+          <div class="margin3 padding3 flex align_center column justify_center round3 bg_shade" style="flex: 1;">
+        <p class="type1 bolder">2k</p>
+        <p class="type5 bold">Stars</p>
+        </div>
+         <div class="margin3 padding3 flex align_center column justify_center round3 bg_shade" style="flex: 1;">
+        <p class="type1 bolder">4.5</p>
+        <p class="type5 bold">Ratings</p>
+        </div>
+</div><pre><code class="language-html">&lt;div class="margin3 padding3 flex align_center column 
+justify_center round3 bg_shade" style="flex: 1" &gt;
+&lt;p class="type1 bolder"&gt;...&lt;/p&gt;
+&lt;p class="type5 bold"&gt;...&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+</div> 
+
+<!-- Feature item -->
+<div id="feat">
+   <p class="margin_top2 margin_bottom2 type4 bolder">Feature item / Message 
+      <a class="text_shade type5 bold link" href="#feat">#</a>
+   </p>
+   <p class="type5 margin_bottom1 ">we can use feature items as messages</p>  
+
+<div class="flex margin_top2 margin_bottom2">
+    <div class="flex justify_center align_center
+ round1 bg_green padding2 margin_end2 bolder type4 text_white"  style="width:3rem; height: 3rem;">D</div>
+    <p class="padding2 bg_shade round2" style="flex: 1;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rerum aperiam, sit laudantium dolor at!</p>
+</div>
+
+<div class="flex margin_top2 margin_bottom2 row_reverse">
+    <div class="flex justify_center align_center
+ round1 bg_blue padding2 margin_start2 bolder type4 text_white" style="width:3rem; height: 3rem;">Z</div>
+    <p class="padding2 bg_shade round2" style="flex: 1;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod aliquid magni corporis deserunt provident sint consequatur dicta quos optio pariatur.</p>
+</div>
+
+<pre><code class="language-html">&lt;div class="flex justify_center align_center
+ round1 bg_green padding2 margin_end2 bolder type4 text_white"&gt;
+&lt;div class="flex justify_center align_center
+ round1 bg_blue padding2 margin_start2 bolder type4 text_white"
+ style="width:3rem; height: 3rem;"&gt;...&lt;/div&gt;
+&lt;p class="padding2 bg_shade round2" style="flex: 1;"&gt;...&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+
+</div>
+
+
+
+
+
+  <!--  Footer -->
+            <div class="row space_between pt1 margin_top1 margin_bottom1">
+                <div class="width5 margin_bottom2">
+                    <p class="type5 bolder margin_bottom3">Developer Message</p>
+                    <p class="type6">
+                        Design source is created by [ <a class="link text_blue bold"href="https://github.com/engsiraj">Noob</a> ] most likely contains bugs and errors and as a dev bugs are new oppertunity to learn. 
+                        Enough appology! just mention one if you find it or we can fix it together.  
+                    </p>
+                </div>
+               
+                <div class="width4 style_none">
+                    <p class="type5 bolder margin_bottom3">!mportant links</p>
+                    <div class="margin_bottom3"><a href="https://github.com/engsiraj/designsource" class="text_dark link">Github</a></div>
+                    <div class="margin_bottom3"><a href="https://linkedin.com/in/engsiraj" class="text_dark link">Linkedin</a></div>
+                    <div class="margin_bottom3"><a href=" https://twitter.com/engsiraj_
+                    " class="text_dark link">Twitter</a></div>
+                  
+                </div>
+            </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
+</body>
+
+</html>
