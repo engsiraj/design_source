@@ -7,12 +7,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="theme-color" content="rgba(0, 0, 0, 0.87)"/>
+    <meta name="theme-color" content="#333333"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Design Source | design system</title>
   <style>
-    
+  .nav-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
    .Header{
     height: 77vh;
     display: flex;
@@ -22,56 +26,59 @@
    img{
     width: 100%;
    }
-   .typoSec{
-    background: #ffedc8;
-   }
-  
    .typeFull{
     font-size: 200px;
     font-weight: 500;
    }
+  section{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-gap: 1rem;
+
+}
+
   </style>
   </head>
-  <body class="bg_dark white">
-    <div class="px2 oswald">
-       <nav class="pt2 flex space_between">
-         <a href="#typo" class="regular white ">DesignSource</a>
+  <body class="bg_light white"> 
+    <div class="bg_gray px1 oswald ">
+       <nav class="nav-padding flex space_between ">
+         <a href="#typo" class="regular white ">Design Source</a>
          <div>
-          <a href="https://github.com/engsiraj/designsource" target="_blank" class="regular white ">Github</a>
+          <a href="https://github.com/engsiraj/designsource" target="_blank" class="regular light "><i class=" fa-brands fa-github fa-lg"></i></a>
          <!-- <a href="./page/component.html" target="_blank" class="ml5 regular white ">Components</a> -->
          </div>
        </nav>
+   </div>
+     <div class="px1">
+   
        <div class="Header">
         <img src="image/header.png">
-
-    </div>
-    <div class="row space_between pb8">
-
-      <div class="p1 mb5 border1 border_white round1 col4 ">
-        <a href="#typo" class="type5 uppercase white ">typography</a>
-        <p class="text poppins light">font size and styles</p>
+        </div>
+    <div class="row space_between pb8 oswald">
+      <div class="p1 mb5 border1 border_dark round1 col4 ">
+        <a href="#typo" class="type5 uppercase gray ">typography</a>
+        <p class="text poppins gray">font size and styles</p>
+      </div>
+      <div class="p1 mb5 border1 border_dark round1 col4 ">
+        <a href="#layout" class="type5 uppercase dark ">layout</a>
+        <p class="text poppins dark">layout space and width</p>
       </div>
 
-      <div class="p1 mb5 border1 border_white round1 col4 ">
-        <a href="#layout" class="type5 uppercase white ">layout</a>
-        <p class="text poppins light">layout space and width</p>
+      <div class="p1 mb5 border1 border_dark round1 col4 ">
+        <a href="#color" class="type5 uppercase dark ">color</a>
+        <p class="text poppins dark">brand and design system colors</p>
       </div>
 
-      <div class="p1 mb5 border1 border_white round1 col4 ">
-        <a href="#color" class="type5 uppercase white ">color</a>
-        <p class="text poppins">brand and design system colors</p>
-      </div>
-
-       <div class="p1 mb5 border1 border_white round1 col4 ">
-        <a class="type5 uppercase white" target="_blank">components</a>
-        <p class="text poppins">coming soon</p>
+       <div class="p1 mb5 border1 border_dark round1 col4 ">
+        <a class="type5 uppercase dark" target="_blank">components</a>
+        <p class="text poppins dark">coming soon</p>
       </div>
   
     </div>
   </div>
 
-    <div class="typoSec oswald dark">
-       <div class="px2 py1" id="typo">
+    <div class=" oswald bg_gray light">
+       <div class="px1 py1" id="typo">
        <div class="row">
         <div class="col2 mt4">
            <p class="typeFull">Aa</p>
@@ -81,7 +88,7 @@
            <p class="type2">1 2 3 4 5 6 7 8 9</p>
        </div>
         <div class="col2 mt4">
-          <p class="type4 ">The <span class="strong"> '.oswald' </span> and <span class="strong"> '.poppins' </span> are the google fonts used in desing source design system.</p>
+          <p class="type4 ">The <span class="strong"> '.oswald' </span> and <span class="strong"> '.poppins' </span> are the google fonts used in design source design system.</p>
 
            <p class="regular mt3 poppins ">for <span class="italic code">.italic</span>,<span class="strong code">.strong </span>,<span class="bold code"> .bold </span>, <span class="bolder code">.bolder </span>, <span class="code">.uppercase</span> for <span class="uppercase">uppercase </span> and for <span class="code"> .code </span> and <span class="keyboard">.keyboard </span> for shortcuts and to align text <span class="code">.center </span>,<span class="code">.left </span> and <span class="code">.right </span> classes.</p>
 
@@ -97,7 +104,7 @@
        </div>
 
     </div>
-       <div class=" px2 py1 poppins" id="layout">
+       <div class="gray px1 py1 poppins" id="layout">
          <p class="type2 oswald">Layouts</p>
          <p class="regular  w8 pt1">layout classes for creating superfast ui and webpage using design source.</p>
 
@@ -203,64 +210,61 @@
          
        </div>
 
-    <div class="typoSec px2 py1 poppins dark" id="color">
+    <div class="bg_gray px1 py1 poppins light" id="color">
        <p class="type2 oswald pb2 ">Colors</p>
        <li class="ls_circle text ">Background colors are added as <span class="code">.bg_colorname</span>class</li>
        <li class="ls_circle text pb2">colors are added as <span class="code">.colorname</span> class</li>
-     <div class="row space_between" >
-       <div class="flex space_between w5">
 
-         <div class="border1 border_blue col4  shadow1" style="margin:5px" >
+       <section class="">
+
+         <div class="border1 border_blue  shadow1">
           <div class="p5 bg_blue"></div>
           <p class=" mt1  ml1 ">Accent Blue</p>
           <p class="mb1 ml1 blue ">.blue</p>
           </div>
 
-          <div class="border1 border_green col4 shadow1"  style="margin:5px">
+          <div class="border1 border_green  shadow1" >
           <div class="p5 bg_green"></div>
           <p class=" mt1  ml1 ">Sucess Green</p>
           <p class="mb1 ml1 green ">.green</p>
           </div>
 
-          <div class="border1 border_red col4  shadow1"  style="margin:5px">
+          <div class="border1 border_red   shadow1" >
           <div class="p5 bg_red"></div>
           <p class=" mt1  ml1 ">Brick Red</p>
           <p class="mb1 ml1 red ">.red</p>
           </div>
 
-          <div class="border1 border_yellow col4 shadow1" style="margin:5px">
+          <div class="border1 border_yellow  shadow1" >
           <div class="p5 bg_yellow"></div>
           <p class=" mt1  ml1 ">Warning Yellow</p>
           <p class="mb1 ml1 yellow ">.yellow</p>
           </div>
-          
-       </div>
-        <div class="flex space_between col2">
-          <div class="border1 border_dark col4 shadow1" style="margin:5px">
+          <div class="border1 border_dark  shadow1" >
           <div class="p5 bg_dark "></div>
           <p class=" mt1  ml1 ">Coal Dark</p>
-          <p class="mb1 ml1 dark ">.dark</p>
+          <p class="mb1 ml1 light ">.dark</p>
           </div>
-         <div class="border1 border_gray col4 shadow1" style="margin:5px">
-          <div class="p5 bg_gray"></div>
+         <div class="border1 border_white  shadow1">
+          <div class="p5 bg_gray bb1 "></div>
           <p class=" mt1  ml1 ">Dark Shade</p>
-          <p class="mb1 ml1 gray ">.gray</p>
+          <p class="mb1 ml1  ">.gray</p>
           </div>
-         <div class="border1 border_gray col4 shadow1" style="margin:5px">
-          <div class="p5 bg_light bb1 border_gray "></div>
+         <div class="border1  shadow1" >
+          <div class="p5 bg_light"></div>
           <p class=" mt1  ml1 ">Light White</p>
-          <p class="mb1 ml1 gray ">.light</p>
+          <p class="mb1 ml1 light ">.light</p>
           </div>
-          <div class="border1 border_gray col4 shadow1" style="margin:5px">
-          <div class="p5 bg_white bb1 border_gray"></div>
+          <div class="border1  shadow1" >
+          <div class="p5 bg_white"></div>
           <p class=" mt1  ml1 ">White</p>
-          <p class="mb1 ml1 gray ">.white</p>
+          <p class="mb1 ml1 ">.white</p>
           </div>
-          </div>
-          </div>
+
+</section>
     </div>
-       <div class="p2 poppins white">
-         <p class="flex justify_center">Created By<a href="https://twitter.com/engsiraj_" class="white pl1" target="_blank">@engsiraj_</a></p>
+       <div class="p2 poppins gray">
+         <p class="flex justify_center">Created with 🖤 By<a href="https://twitter.com/siraj_codes" class="gray pl1 bold" target="_blank">@siraj_codes</a></p>
        </div>
   </body>
 </html>
