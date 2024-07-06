@@ -1,24 +1,20 @@
-<!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-one-light.min.css"
-    /> -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="theme-color" content="#333333"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./style.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Design Source | design system</title>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href='../style.css' rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-one-light.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Design Source | Design System</title>
   <style>
   .nav-padding {
     padding-top: 20px;
     padding-bottom: 20px;
   }
    .Header{
-    height: 77vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,9 +28,8 @@
    }
   section{
     display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  grid-gap: 1rem;
-
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-gap: 1rem;
 }
 
   </style>
@@ -42,17 +37,15 @@
   <body class="bg_light white"> 
     <div class="bg_gray px1 oswald ">
        <nav class="nav-padding flex space_between ">
-         <a href="#typo" class="regular white ">Design Source</a>
+         <a href="#typo" class="regular light ">Design Source</a>
          <div>
           <a href="https://github.com/engsiraj/designsource" target="_blank" class="regular light "><i class=" fa-brands fa-github fa-lg"></i></a>
-         <!-- <a href="./page/component.html" target="_blank" class="ml5 regular white ">Components</a> -->
          </div>
        </nav>
    </div>
      <div class="px1">
-   
        <div class="Header">
-        <img src="image/header.png">
+        <img src="data/header.png">
         </div>
     <div class="row space_between pb8 oswald">
       <div class="p1 mb5 border1 border_gray round1 col4 ">
@@ -63,20 +56,28 @@
         <a href="#layout" class="type5 uppercase gray ">layout</a>
         <p class="text poppins gray">layout space and width</p>
       </div>
-
       <div class="p1 mb5 border1 border_gray round1 col4 ">
         <a href="#color" class="type5 uppercase gray ">color</a>
         <p class="text poppins gray">brand and design system colors</p>
       </div>
-
        <div class="p1 mb5 border1 border_gray round1 col4 ">
-        <a class="type5 uppercase gray" target="_blank">components</a>
-        <p class="text poppins gray">coming soon</p>
+        <a class="type5 uppercase gray" target="_blank" href="./page/component.html">components</a>
+        <p class="text poppins gray">curated with reusability and easiness</p>
       </div>
-  
     </div>
   </div>
-
+<div >
+  <div class= "px1">
+<pre><code class="language-html">&lt;header class="width6"&gt;
+  &lt;p class="type3 bold"&gt;...&lt;/p&gt;
+  &lt;p class="type5 mt2"&gt;...&lt;/p&gt;
+  &lt;button class="margin_start3 mt2 mb2
+  type6 btn_large btn_blue white round2 bold"&gt;...&lt;/button&gt;
+  &lt;button class="margin_start3 mt2 mb2 
+  type6 btn_large btn_shade round2 bold"&gt;...&lt;/button&gt;
+&lt;/header&gt;</code></pre>
+            </div>
+</div>
     <div class=" oswald bg_gray light">
        <div class="px1 py1" id="typo">
        <div class="row">
@@ -215,7 +216,7 @@
        <li class="ls_circle text ">Background colors are added as <span class="code">.bg_colorname</span>class</li>
        <li class="ls_circle text pb2">colors are added as <span class="code">.colorname</span> class</li>
 
-       <section class="">
+       <section>
 
          <div class="border1 border_blue  shadow1">
           <div class="p5 bg_blue"></div>
@@ -266,5 +267,6 @@
        <div class="p2 poppins gray">
          <p class="flex justify_center">Created with 🖤 By<a href="https://twitter.com/siraj_codes" class="gray pl1 bold" target="_blank">@siraj_codes</a></p>
        </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
   </body>
 </html>
