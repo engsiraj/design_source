@@ -9,123 +9,142 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Design Source | Components</title>
     <style>
+       .Header{
+        height: 92vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+   }
+      img{
+    width: 100%;
+   }
     .nav-padding {
      padding-top: 20px;
-     padding-bottom: 20px;
      }
+     
     .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     grid-gap: 1rem;
     }
+    .grid>a{color:#dadada;}
+    .card:hover{
+      color:#333333;
+      background-color: #dadada !important;
+    }
     </style>
 </head>
 
 <body>
-<!-- Global Style  -->
-       <div class="bg_gray px1 oswald">
+<!-- nav  -->
+  <div class="bg_gray">
+      <div class=" px1 oswald">
        <nav class="nav-padding flex space_between ">
          <a href="../index.html" class="regular light ">Design Source</a>
          <div>
           <a href="https://github.com/engsiraj/designsource" target="_blank" class="regular light "><i class=" fa-brands fa-github fa-lg"></i></a>
          </div>
        </nav>
-   </div>
-    <div class="px1 oswald dark">
-    <!-- Compnents Navigation  -->
-        <header class="py1 col3 m_auto center">
-          <p class="type2 bold  poppins">Design Source</p>
-          <p class="regular mt1 poppins">Using a user-friendly user interface design system, you can customize your design</p>
-        </header>
-<div class="grid">
-    <div class="p1  border1 border_gray round1  ">
-        <a href="#nav" class="type5 uppercase gray ">Navigation</a>
-        <p class="text poppins gray">font size and styles</p>
+     </div>
+<!-- header  -->
+    <div class="px1 oswald">
+       <div class="Header">
+       <img src="../data/components.png">
+    <div class="mt6 row space_between space_between">
+      <div class="mt6 light col2 pe1"><p class="regular strong poppins">Design Source</p>
+          <p class="text poppins pt1">Design Source is a CSS-only design system with streamlined components, built for simplicity and efficiency. Experience unmatched speed and a clean, intuitive user interface. Perfect for modern web development.</p>
       </div>
+    <div class="mt6 light col4 ">  <p class="regular strong poppins ">Created By</p>
+      <p class="text poppins pt1"><span class="strong ">M. Siraj, </span>Full Stack Developer and Assistant HR Manager at FTIT, creates impactful websites and webapps.</p>
+    </div>
+    <div class="mt6 light col4">  
+      <p class="regular strong poppins">Socials</p>
+      <div class="flex column poppins">
+          <a class="mt2 reglar poppins light" href="https://x.com/siraj_codes" target="_blank"><i class="fa-brands fa-square-x-twitter"></i> / siraj_codes</a>
+          <a class=" reglar poppins light" href="https://www.linkedin.com/in/engsiraj/" target="_blank"><i class="fa-brands fa-linkedin"></i> / sirajcodes</a>
+          <a class=" reglar poppins light" href="https://github.com/sirajcode" target="_blank"><i class=" fa-brands fa-github"></i></i> / sirajcode</a>
+      </div>   
+    </div>
+  </div>
+</div>
 
-      <div class="p1 border1 border_gray round1  ">
-        <a href="#typo" class="type5 uppercase gray ">Header</a>
-        <p class="text poppins gray">font size and styles</p>
-      </div>
-      <div class="p1 border1 border_gray round1  ">
-        <a href="#typo" class="type5 uppercase gray ">Side Bar</a>
-        <p class="text poppins gray">font size and styles</p>
-      </div>
-      <div class="p1 border1 border_gray round1  ">
-        <a href="#typo" class="type5 uppercase gray ">Divider</a>
-        <p class="text poppins gray">font size and styles</p>
-      </div>
-      <div class="p1 border1 border_gray round1 ">
-        <a href="#typo" class="type5 uppercase gray ">Table</a>
-        <p class="text poppins gray">font size and styles</p>
-      </div>
-        <div class="p1 border1 border_gray round1 ">
-        <a href="#typo" class="type5 uppercase gray ">Profile Badge</a>
-        <p class="text poppins gray">font size and styles</p>
-      </div>
+<!-- components nav  -->
+<div class="poppins mb6">
+<div class="grid">
+      <a class="p1 card" href="#nav">
+        <p  class="regular strong  ">Navigation</p>
+        <p class="text ">font size and styles</p>
+      </a>
+
+      <a class="p1 card" href="">
+        <p class="regular strong  ">Header</p>
+        <p class="text ">font size and styles</p>
+      </a>
+
+      <a class="p1 card" href="">
+        <p class="regular strong">Table</p>
+        <p class="text ">font size and styles</p>
+      </a>
+
+      <a class="p1 card" href="">
+        <p class="regular strong">Profile</p>
+        <p class="text ">font size and styles</p>
+      </a>
+
+      <a class="p1 card" href="">
+        <p class="regular strong">Color</p>
+        <p class="text ">font size and styles</p>
+      </a>
        
-        <div class="p1 border1 border_gray round1 ">
-        <a href="#typo" class="type5 uppercase gray ">Color Pallet</a>
-        <p class="text poppins gray">font size and styles</p>
-      </div>
+      <a class="p1 card" href="">
+        <p class="regular strong">Code</p>
+        <p class="text ">font size and styles</p>
+      </a>
       
      
-        <div class="p1 border1 border_gray round1 ">
-        <a href="#typo" class="type5 uppercase gray ">Code</a>
-        <p class="text poppins gray">font size and styles</p>
-      </div>
+      <a class="p1 card" href="">
+        <p class="regular strong">Alert</p>
+        <p class="text ">font size and styles</p>
+      </a>
       
-        <div class="p1 border1 border_gray round1 ">
-        <a href="#typo" class="type5 uppercase gray ">Alert</a>
-        <p class="text poppins gray">font size and styles</p>
-      </div>
+     <a class="p1 card" href="">
+        <p class="regular strong">Price Card</p>
+        <p class="text ">font size and styles</p>
+     </a>
     
-        <div class="p1 border1 border_gray round1 ">
-        <a href="#typo" class="type5 uppercase gray ">Price Cards</a>
-        <p class="text poppins gray">font size and styles</p>
-      </div>
+     <a class="p1 card" href="">
+        <p class="regular strong">Feature</p>
+        <p class="text ">font size and styles</p>
+     </a>
 
-         <div class="p1 border1 border_gray round1 ">
-        <a href="#typo" class="type5 uppercase gray ">Features</a>
-        <p class="text poppins gray">font size and styles</p>
-      </div>
-
-         <div class="p1 border1 border_gray round1 ">
-        <a href="#typo" class="type5 uppercase gray ">States</a>
-        <p class="text poppins gray">font size and styles</p>
-      </div>
-      
-
-
+    <a class="p1 card" href="">
+        <p class="regular strong">States</p>
+        <p class="text ">font size and styles</p>
+    </a>
 </div>
-      
- <!-- update section -->
-         <div class="mt4 p2  bg_light border1 border_green poppins">
-            <p class="regular strong mb2 green ">Long time no see?</p>
-            Now updates will come continuesly in random days stay tuned with <strong>Design Source.</strong>
-         
-            
-        </div>
- <!--  Navigation -->
-        <div class="mt1 mb2" id="nav">
-            <p class="type4 bold mb2">Navigation
-                <a class="shade type5 bold link" href="#nav">#</a> 
-            </p>
-            <p class="type5 mb2">basic navigation bar for simple website. Responsive navigation is under its building process.</p>
-            <div class="p2 grid1 border3">
+</div>
+</div>  
+<!-- components starts here  -->
+
+ <!--  nav -->
+
+        <div class="poppins bg_light px1 py1" id="nav">
+            <p class="type4 strong mb2">Navigation</p>
+            <p class="regular mb2">basic navigation bar for simple website. Responsive navigation is under its building process.</p>
+            <div class="p2 grid1 border2">
                   <nav class=" m_none flex space_between grid1">
-                      <p class="type4 bold">Logo</p>
-                      <ul class=" m_none type5 grid2 flex space_between style_none">
-                          <li>link1</li>
-                          <li>link2</li>
-                          <li>link3</li>
+                      <p class="type4 strong">Logo</p>
+                      <ul class="m_none regular col4 flex space_between ls_none">
+                          <li>Home </li>
+                          <li>About</li>
+                          <li>Links</li>
                       </ul>
                   </nav>
             </div>
             <div class= "mt2 grid1">
                 <pre><code class="language-html">&lt;nav class="flex space_between grid1"&gt;
-  &lt;p class="type4 mt2 bold"&gt;...&lt;/p&gt;
- &lt;ul class="type5 mt2 grid2 flex space_between style_none"&gt;
+  &lt;p class="type4 mt2 strong"&gt;...&lt;/p&gt;
+ &lt;ul class="regular mt2 grid2 flex space_between style_none"&gt;
   &lt;li&gt;...&lt;/li&gt;
   &lt;li&gt;...&lt;/li&gt;
   &lt;li&gt;...&lt;/li&gt;
@@ -133,109 +152,61 @@
 &lt;/nav&gt;</code></pre>
             </div>
         </div>
- <!--  Header  -->
-        <div class="mt1 mb2" id="header">
-            <p class="type4 bold mb2">Header
-                <a class="shade type5 bold link" href="#header">#</a> 
-            </p>
-            <p class="type5 mb2">this is example header page of design source you can build even awesome form the design source design system</p>
-            <div class="p2 grid1 border3">
+ <!--  header  -->
+        <div class="poppins px1 py1 bg_light" id="header">
+            <p class="type4 strong mb2">Header</p>
+            <p class="regular mb2">this is example header page of design source you can build even awesome form the design source design system</p>
+            <div class="p2 grid1 border2">
         <header class="width6">
-                <p class="type3 bold">The Design Source <br> For developers by developer.</p>
-                <p class="type5 mt2">Using a user-friendly user interface design system, you can customize your design.</p>
-                <button class="mt2 type6 btn_large btn_blue round1 bold hvr_white"><a
-                        class="white" href="#">Get Started</a></button>
-                <button
-                    class=" margin_start3 mt2 type6 btn_large btn_shade round1 bold"><a
-                        class="dark" href="#">Components</a></button>
+                <p class="type4 strong">The Design Source <br> For developers by developer.</p>
+                <p class="regular mt2 mb2">Using a user-friendly user interface design system, you can customize your design.</p>
+                <button class="b0 btn_lg btn_blue round1 light strong mr1">Get Started</button>
+                <button class="b0 btn_lg btn_shade round1 gray strong">Components</button>
         </header>    
             </div>
             <div class= "mt2 type6">
 <pre><code class="language-html">&lt;header class="width6"&gt;
-  &lt;p class="type3 bold"&gt;...&lt;/p&gt;
-  &lt;p class="type5 mt2"&gt;...&lt;/p&gt;
+  &lt;p class="type3 strong"&gt;...&lt;/p&gt;
+  &lt;p class="regular mt2"&gt;...&lt;/p&gt;
   &lt;button class="margin_start3 mt2 mb2
-  type6 btn_large btn_blue white round2 bold"&gt;...&lt;/button&gt;
+  type6 btn_large btn_blue white round2 strong"&gt;...&lt;/button&gt;
   &lt;button class="margin_start3 mt2 mb2 
-  type6 btn_large btn_shade round2 bold"&gt;...&lt;/button&gt;
+  type6 btn_large btn_shade round2 strong"&gt;...&lt;/button&gt;
 &lt;/header&gt;</code></pre>
             </div>
             </div>
- <!--  Side bar  -->
- <div class="mt1 mb1" id="sidebar">
-       <p class="mt2 type4 bold mb2">Side Bar
-                <a class="shade type5 bold link" href="#sidebar">#</a> 
-        </p>
-     <p class="type5 mb1">there are no extra classes added for the dashboard we can simply create it through the classes already in use by design system</p>
-     <div class="grid1 flex">
-         <div style="height:300px;" class="w3 type6 bold p2 mb3 bg_blue white">text here</div>
-         <div style="height:300px;" class="w7 type6 bold p2 mb3 bg_red white">some text here</div>
-     </div>
- </div>
-<!--  Divider Sections -->
-     <div class="mt1 mb1" id="divider">
-      <p class="mt2 mb2 type4 bold">Dividers
-         <a class="shade type5 bold link" href="#divider">#</a>
-      </p>
-      <p class="type5 mb1 ">divider are basically horizental row to add both vertical and horizental divider will be added in next update</p>
-    <div class="row space_between">
-      <div class="pr2 w5">
-      <div>
-        <p class="mt3 mb3 type5 bold">Section</p>
-        <p class="type5 mb2 ">some text here</p>
-      </div>
-      <hr/>
-      <div>
-        <p class="mt3 mb3 type5 bold">Section</p>
-        <p class="type5 mb2 ">some text here </p>
-      </div>
-     <hr/>
-     <div>
-        <p class="mt3 mb3 type5 bold">Section</p>
-        <p class="type5 mb2 ">some text here</p>
-      </div>
-    </div>
-    <div class="pl2 w5">
-     <pre><code class="language-html"> &lt;p class="type5 bold"&gt;...&lt;/p&gt;
- &lt;p class="type5"&gt;...&lt;/p&gt;
- &lt;hr/&gt;
- &lt;p class="type5 bold"&gt;...&lt;/p&gt;
- &lt;p class="type5"&gt;...&lt;/p&gt;
- &lt;hr/&gt;
- &lt;p class="type5 bold"&gt;...&lt;/p&gt;
- &lt;p class="type5"&gt;...&lt;/p&gt;</code><pre/></div>
-</div>
+
 <!--  Table -->
-<div class="mt1 mb1" id="table">
-    <p class="mt2 mb2 type4 bold">Table
-         <a class="shade type5 bold link" href="#table">#</a>
+<div class="poppins px1 py1 bg_light" id="table">
+    <p class="mt2 mb2 type4 strong">Table
+         <a class="shade regular strong link" href="#table">#</a>
     </p>
-    <p class="type5 mb1 ">Table willbe as given code basic way the table style is under process will be updated in few updates although we will still use the same classes.</p>
-<table class="grid1">
+    <p class="regular mb1 ">Table willbe as given code basic way the table style is under process will be updated in few updates although we will still use the same classes.</p>
+<table class="w_full">
     <tr>
-        <th class="border3 border_dim text_start bg_green p3 white">Name</th>
-        <th class="border3 border_dim text_start bg_green p3 white">Address</th>
-        <th class="border3 border_dim text_start bg_green p3 white">Company</th>
+        <th class="border1 border_dark text_start bg_green p3 white">Name</th>
+        <th class="border1 border_dark text_start bg_green p3 white">Address</th>
+        <th class="border1 border_dark text_start bg_green p3 white">Company</th>
     </tr>
     <tr>
-        <td class=" border3 border_dim p3 ">Futterk</td>
-        <td class=" border3 border_dim p3 ">kiste</td>
-        <td class=" border3 border_dim p3 ">Alfreds</td>
+        <td class=" border1 border_dark p3 ">Futterk</td>
+        <td class=" border1 border_dark p3 ">kiste</td>
+        <td class=" border1 border_dark p3 ">Alfreds</td>
     </tr>
     <tr>
-        <td class=" border3 border_dim p3 ">Alfreds</td>
-        <td class=" border3 border_dim p3 ">Alfreds</td>
-        <td class=" border3 border_dim p3 ">Alfreds</td>
+        <td class=" border1 border_dark p3 ">Alfreds</td>
+        <td class=" border1 border_dark p3 ">Alfreds</td>
+        <td class=" border1 border_dark p3 ">Alfreds</td>
     </tr>
     <tr>
-        <td class=" border3 border_dim p3 ">Alfreds</td>
-        <td class=" border3 border_dim p3 ">Alfr</td>
-        <td class=" border3 border_dim p3 ">erkiste</td>
+        <td class=" border1 border_dark p3 ">Alfreds</td>
+        <td class=" border1 border_dark p3 ">Alfr</td>
+        <td class=" border1 border_dark p3 ">erkiste</td>
     </tr>
     <tr>
-        <td class=" border3 border_dim p3 ">Ali ahemad</td>
-        <td class=" border3 border_dim p3 ">name</td>
-        <td class=" border3 border_dim p3 ">table here </td>
+        <td class=" border1 border_dark p3 ">Ali ahemad</td>
+        <td class=" border1 border_dark p3 ">name</td>
+        <td class=" border1 border_dark p3 ">table here </td>
     </tr>
 </table >
   <pre><code class="language-html">&lt;table&gt;
@@ -253,14 +224,12 @@
 </pre></code>
 </div>
 <!-- Profile badge  -->
-<div class="mt1 mb1" id="profile">
-    <p class="mt2 mb2 type4 bold">Profile Badge
-         <a class="shade type5 bold link" href="#profile">#</a>
-    </p>
-    <p class="type5 mb1 ">there is no extra classes are used for the profile badge just used the width in pixels like 
+<div class="px1 py1 poppins bg_light" id="profile">
+    <p class="mt2 mb2 type4 strong">Profile Badge</p>
+    <p class="regular mb1 ">there is no extra classes are used for the profile badge just used the width in pixels like 
         style="width:70px;"
     </p>
-<div class="flex">
+<div class="flex mb4 mt4">
     <div >
          <img class="circular  border1 border_white"  style="width:70px; height:70px;" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="pro_image">
     </div>
@@ -277,7 +246,7 @@
         <img class="circular  border1 border_white"  style="width:70px; height:70px;" src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="pro_image">
     </div>
 </div>   
-</div>
+
 <pre><code class="language-html">&lt;div class="flex"&gt;
 &lt;div style="width:70px;"&gt;
   &lt;img class="circular  border1 border_white"
@@ -285,12 +254,11 @@
   &lt;/div&gt;
 &lt;/div&gt;
 </pre></code>
-<!-- Color Swatches  -->
-<div class="mt1 mb1" id="colors">
-    <p class="mt2 mb2 type4 bold">Color Swatches
-         <a class="shade type5 bold link" href="#colors">#</a>
-    </p>
-    <p class="type5 mb1 ">color swatches donot use extra classes or style</p>
+</div>
+<!-- color swatches  -->
+<div class="px1 py1 poppins bg_light" id="colors">
+    <p class="mt2 mb2 type4 strong">Color Swatches</p>
+    <p class="regular mb1 ">color swatches donot use extra classes or style</p>
 <div class="flex">
     <div class="p2 mr3 circular bg_blue"></div>
     <div class="p2 mr3 circular bg_green"></div>
@@ -306,118 +274,117 @@
 </pre></code>
 </div>
 <!--  code  -->
-<div id="code">
-    <p class="mt2 mb2 type4 bold" >Code
-         <a class="shade type5 bold link" href="#code">#</a>
-    </p>
-    <p class="type5 mb1 ">introduces the  class <span class="code">.code</span> to visualize the code and keyboard <span class="code">shortcuts</span> or <span class="code ">commands</span></p>
+<div class="px1 py1 poppins bg_light" id="code">
+    <p class="mt2 mb2 type4 strong" >Code</p>
+    <p class="regular mb1 ">introduces the  class <span class="code">.code</span> to visualize the code and keyboard <span class="code">shortcuts</span> or <span class="code ">commands</span></p>
 </div>
 <!--  alert  -->
-<div id="alert">
-        <p class="mt2 mb2 type4 bold">Alert 
-              <a class="shade type5 bold link" href="#alert">#</a>
+<div class="px1 py1 poppins bg_light" id="alert">
+        <p class="mt2 mb2 type4 strong">Alert 
         </p>
-             <p class="type5 mb1 ">Alerts are based in design source classes only</p>
+             <p class="regular mb1 ">Alerts are based in design source classes only</p>
       
-    <div class="mt1 grid1 p2 mb3 bg_shade border3 border_blue dark">
-            <p class="type5 bold mb3 blue">Alert</p>
+    <div class="mt1 grid1 p2 mb3 bg_shade border1 border_blue dark">
+            <p class="regular strong mb3 blue">Alert</p>
             <p class="type6">this is blue bg alert </p>
     </div>
 <pre><code class="language-html">&lt;div class="grid1 p2 mb3
- bg_shade border3 border_blue dark"&gt;
- &lt;p class="type5 bold mb3 
+ bg_shade border1 border_blue dark"&gt;
+ &lt;p class="regular strong mb3 
  blue"&gt;...&lt;/p&gt;
  &lt;p class="type6"&gt;...&lt;/p&gt;
 &lt;/div&gt;
 </pre></code>
 </div>
 <!--  price cards   -->
- <div id="card">
-   <p class="mt2 mb2 type4 bold">Price cards 
-      <a class="shade type5 bold link" href="#card">#</a>
+  <div class="px1 py1 poppins bg_light" id="alert">
+   <p class="mt2 mb2 type4 strong">Price cards 
+
    </p>
-   <p class="type5 mb1 ">Price cards are build with css classes  of design system.</p>  
-<div class="row justify_center align_center">
+   <p class="regular mb1 ">Price cards are build with css classes  of design system.</p>  
+<div class="grid justify_between">
     
-    <div  style="flex: 1;" class="m3 p2 flex align_center column justify_center border3 round1 border_shade">
-      <p class="bold type5 mb3">card title</p>
-      <p class="type2 bold mb3">$47</p>
+    <div  style="flex: 1;" class=" p2 flex align_center column justify_center border1 round1 border_shade">
+      <p class="strong regular mb3">card title</p>
+      <p class="type2 strong mb3">$47</p>
       <p class="type6 text_center">Lorem ipsum dolor sit </p>
       <p class="type6"></p>
-     <button class="mt2 btn_small round1 bg_blue white bold ">avail offer</button>
+     <button class="mt2 btn_small round1 bg_blue white strong ">avail offer</button>
     </div>
 
-     <div  style="flex: 1;" class="m3 p2 flex align_center column justify_center border3 round1 border_shade">
-      <p class="bold type5 mb3">card title</p>
-      <p class="type2 bold mb3">$47</p>
+     <div  style="flex: 1;" class=" p2 flex align_center column justify_center border1 round1 border_shade">
+      <p class="strong regular mb3">card title</p>
+      <p class="type2 strong mb3">$47</p>
       <p class="type6 text_center">Lorem ipsum dolor sit </p>
       <p class="type6"></p>
-     <button class="mt2 btn_small round1 bg_blue white bold ">avail offer</button>
+       <button class="b0 pt1 btn_md round1 gray strong">Components</button>
     </div>
-     <div  style="flex: 1;" class="m3 p2 flex align_center column justify_center border3 round1 border_shade">
-      <p class="bold type5 mb3">card title</p>
-      <p class="type2 bold mb3">$47</p>
+     <div  style="flex: 1;" class=" p2 flex align_center column justify_center border1 round1 border_shade">
+      <p class="strong regular mb3">card title</p>
+      <p class="type2 strong mb3">$47</p>
       <p class="type6 text_center">Lorem ipsum dolor sit </p>
       <p class="type6"></p>
-     <button class="mt2 btn_small round1 bg_blue white bold ">avail offer</button>
+     <button class="mt2 btn_small round1 bg_blue white strong ">avail offer</button>
     </div>  
 </div><pre><code class="language-html">&lt;div class="row justify_center align_center"&gt;   
 &lt;div  style="flex: 1;" class="m3 p2 flex align_center
-column justify_center border3 round1 border_shade"&gt;
+column justify_center border1 round1 border_shade"&gt;
 ...
 &lt;/div&gt;
 &lt;/div&gt;
 </pre></code>
 </div>
+</div>
+ <div id="card ">
 <!-- states -->
 <div id="stat">
-   <p class="mt2 mb2 type4 bold">States 
-      <a class="shade type5 bold link" href="#stat">#</a>
+   <p class="mt2 mb2 type4 strong">States 
+      <a class="shade regular strong link" href="#stat">#</a>
    </p>
-   <p class="type5 mb1 ">Statistic cards are build with css classes  of design system.</p>  
+   <p class="regular mb1 ">Statistic cards are build with css classes  of design system.</p>  
     <div class="row">
         <div class="m3 p3 flex align_center column justify_center round1 bg_shade" style="flex: 1;">
-        <p class="type1 bold">9.4k</p>
-        <p class="type5 bold">Downloads</p>
+        <p class="type1 strong">9.4k</p>
+        <p class="regular strong">Downloads</p>
         </div>
           <div class="m3 p3 flex align_center column justify_center round1 bg_shade" style="flex: 1;">
-        <p class="type1 bold">2k</p>
-        <p class="type5 bold">Stars</p>
+        <p class="type1 strong">2k</p>
+        <p class="regular strong">Stars</p>
         </div>
          <div class="m3 p3 flex align_center column justify_center round1 bg_shade" style="flex: 1;">
-        <p class="type1 bold">4.5</p>
-        <p class="type5 bold">Ratings</p>
+        <p class="type1 strong">4.5</p>
+        <p class="regular strong">Ratings</p>
         </div>
 </div><pre><code class="language-html">&lt;div class="m3 p3 flex align_center column 
 justify_center round1 bg_shade" style="flex: 1" &gt;
-&lt;p class="type1 bold"&gt;...&lt;/p&gt;
-&lt;p class="type5 bold"&gt;...&lt;/p&gt;
+&lt;p class="type1 strong"&gt;...&lt;/p&gt;
+&lt;p class="regular strong"&gt;...&lt;/p&gt;
 &lt;/div&gt;</code></pre>
 </div> 
 
 <!-- Feature item -->
 <div id="feat">
-   <p class="mt2 mb2 type4 bold">Feature item / Message 
-      <a class="shade type5 bold link" href="#feat">#</a>
+   <p class="mt2 mb2 type4 strong">Feature item / Message 
+      <a class="shade regular strong link" href="#feat">#</a>
    </p>
-   <p class="type5 mb1 ">we can use feature items as messages</p>  
+   <p class="regular mb1 ">we can use feature items as messages</p>  
 
 <div class="flex mt2 mb2">
     <div class="flex justify_center align_center
- circular bg_green p2 mr2 bold type4 white"  style="width:3rem; height: 3rem;">D</div>
+ circular bg_green p2 mr2 strong type4 white"  style="width:3rem; height: 3rem;">D</div>
     <p class="p2 bg_shade round2" style="flex: 1;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rerum aperiam, sit laudantium dolor at!</p>
 </div>
 
 <div class="flex mt2 mb2 row_reverse">
     <div class="flex justify_center align_center
- circular bg_blue p2 ml2 bold type4 white" style="width:3rem; height: 3rem;">Z</div>
+ circular bg_blue p2 ml2 strong type4 white" style="width:3rem; height: 3rem;">Z</div>
     <p class="p2 bg_shade round2" style="flex: 1;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod aliquid magni corporis deserunt provident sint consequatur dicta quos optio pariatur.</p>
 </div>
 
 <pre><code class="language-html">&lt;div class="flex justify_center align_center
- circular bg_green p2 mr2 bold type4 white"&gt;
+ circular bg_green p2 mr2 strong type4 white"&gt;
 &lt;div class="flex justify_center align_center
- circular bg_blue p2 ml2 bold type4 white"
+ circular bg_blue p2 ml2 strong type4 white"
  style="width:3rem; height: 3rem;"&gt;...&lt;/div&gt;
 &lt;p class="p2 bg_shade round2" style="flex: 1;"&gt;...&lt;/p&gt;
 &lt;/div&gt;</code></pre>
@@ -431,15 +398,15 @@ justify_center round1 bg_shade" style="flex: 1" &gt;
   <!--  Footer -->
             <div class="row space_between pt1 mt1 mb1">
                 <div class="w5 mb2">
-                    <p class="type5 bold mb3">Developer Message</p>
+                    <p class="regular strong mb3">Developer Message</p>
                     <p class="type6">
-                        Design source is created by [ <a class="link blue bold"href="https://github.com/engsiraj">Noob</a> ] most likely contains bugs and errors and as a dev bugs are new oppertunity to learn. 
+                        Design source is created by [ <a class="link blue strong"href="https://github.com/engsiraj">Noob</a> ] most likely contains bugs and errors and as a dev bugs are new oppertunity to learn. 
                         Enough appology! just mention one if you find it or we can fix it together.  
                     </p>
                 </div>
                
                 <div class="w4 style_none">
-                    <p class="type5 bold mb3">!mportant links</p>
+                    <p class="regular strong mb3">!mportant links</p>
                     <div class="mb3"><a href="https://github.com/engsiraj/designsource" class="dark link">Github</a></div>
                     <div class="mb3"><a href="https://linkedin.com/in/engsiraj" class="dark link">Linkedin</a></div>
                     <div class="mb3"><a href=" https://twitter.com/engsiraj_
@@ -447,7 +414,6 @@ justify_center round1 bg_shade" style="flex: 1" &gt;
                   
                 </div>
             </div>
-</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 </body>
