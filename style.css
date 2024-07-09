@@ -29,6 +29,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&display=swap');
 
 /* css reset */
 *,
@@ -85,7 +86,6 @@ a {
   cursor: pointer;
 }
 a:hover {
-  opacity: 0.6;
   transition: ease-in 300ms;
   transition: ease-out 300ms;
 }
@@ -133,6 +133,9 @@ pre[class*="language-"] {
 }
 .oswald {
   font-family: Oswald;
+}
+.barlow {
+  font-family:"Barlow Condensed";
 }
 .type1 {
   font-size: var(--type1);
@@ -576,6 +579,9 @@ ol {
 .w9 {
   width: 90%;
 } /* 9 */
+.w_full {
+  width: 100%;
+}
 /* columns  */
 .col1 {
   width: 100%;
@@ -601,7 +607,9 @@ ol {
 .col8 {
   width: 11.39%;
 }
-
+.b0 {
+  border: none;
+}
 .border {
   border: 1px solid;
 }
