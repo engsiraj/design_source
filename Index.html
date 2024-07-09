@@ -10,8 +10,8 @@
     <title>Design Source | Design System</title>
   <style>
   .nav-padding {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
    .Header{
     height: 75vh;
@@ -35,19 +35,19 @@
   </style>
   </head>
   <body class="bg_light white"> 
-    <div class="bg_gray px1 oswald ">
+    <div class="bg_gray px1 barlow">
        <nav class="nav-padding flex space_between ">
-         <a href="#typo" class="regular light ">Design Source</a>
+         <a href="#typo" class="type5 light ">Design Source</a>
          <div>
-          <a href="https://github.com/engsiraj/designsource" target="_blank" class="regular light "><i class=" fa-brands fa-github fa-lg"></i></a>
+          <a href="https://github.com/engsiraj/designsource" target="_blank" class="type4 light "><i class=" fa-brands fa-github"></i></a>
          </div>
        </nav>
    </div>
      <div class="px1">
        <div class="Header">
-        <img src="data/header.png">
+        <img src="data/designsource.png">
         </div>
-    <div class="row space_between pb8 oswald">
+    <div class="row space_between pb8 barlow">
       <div class="p1 mb5 border1 border_gray round1 col4 ">
         <a href="#typo" class="type5 uppercase gray ">typography</a>
         <p class="text poppins gray">font size and styles</p>
@@ -67,18 +67,13 @@
     </div>
   </div>
 <div >
-  <div class= "px1">
-<pre><code class="language-html">&lt;header class="width6"&gt;
-  &lt;p class="type3 bold"&gt;...&lt;/p&gt;
-  &lt;p class="type5 mt2"&gt;...&lt;/p&gt;
-  &lt;button class="margin_start3 mt2 mb2
-  type6 btn_large btn_blue white round2 bold"&gt;...&lt;/button&gt;
-  &lt;button class="margin_start3 mt2 mb2 
-  type6 btn_large btn_shade round2 bold"&gt;...&lt;/button&gt;
-&lt;/header&gt;</code></pre>
+  <div class= "px1 py1">
+        <p class="type5 gray strong barlow">How To Use In Your Project? </p>
+        <p class="text poppins gray mb2">add link given below to your html file of your website and you are done.</p>
+<pre><code class="language-python"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sirajcode/design_source@master/style.css"></code></pre>
             </div>
 </div>
-    <div class=" oswald bg_gray light">
+    <div class=" barlow bg_gray light">
        <div class="px1 py1" id="typo">
        <div class="row">
         <div class="col2 mt4">
@@ -89,7 +84,7 @@
            <p class="type2">1 2 3 4 5 6 7 8 9</p>
        </div>
         <div class="col2 mt4">
-          <p class="type4 ">The <span class="strong"> '.oswald' </span> and <span class="strong"> '.poppins' </span> are the google fonts used in design source design system.</p>
+          <p class="type4 ">The <span class="strong barlow"> '.barlow' </span> and <span class="strong poppins"> '.poppins' </span> are the google fonts used in design source design system.</p>
 
            <p class="regular mt3 poppins ">for <span class="italic code">.italic</span>,<span class="strong code">.strong </span>,<span class="bold code"> .bold </span>, <span class="bolder code">.bolder </span>, <span class="code">.uppercase</span> for <span class="uppercase">uppercase </span> and for <span class="code"> .code </span> and <span class="keyboard">.keyboard </span> for shortcuts and to align text <span class="code">.center </span>,<span class="code">.left </span> and <span class="code">.right </span> classes.</p>
 
@@ -106,12 +101,12 @@
 
     </div>
        <div class="gray px1 py1 poppins" id="layout">
-         <p class="type2 oswald">Layouts</p>
+         <p class="type2 barlow strong">Layouts</p>
          <p class="regular  w8 pt1">layout classes for creating superfast ui and webpage using design source.</p>
 
          <div class="row space_between pt2">
           <div class="col2">
-            <p class="type4 pt3 oswald">margins</p>
+            <p class="type4 pt3 barlow strong">margins </p>
          <p class="regular pt2 pb2">margin of 6px unit is defined to the classes <span class="code"> m </span>as all around, <span class="code"> mt </span> for top, <span class="code"> mb </span> for bottom, <span class="code"> ml </span> for left and<span class="code"> mr </span> for right.</p>
             <li class="ls_circle">margin:
               <span class="code">m</span>,
@@ -134,7 +129,7 @@
              </li>
           </div>
           <div class="col2">
-            <p class="type4 pt3 oswald">paddings</p>
+            <p class="type4 pt3 barlow strong">paddings</p>
             <p class="regular pt2 pb2">margin of 6px unit is defined to the classes <span class="code"> p </span>as all around, <span class="code"> pt </span> for top, <span class="code"> pb </span> for bottom, <span class="code"> pl </span> for left and<span class="code"> pr </span> for right.</p>
             <li class="ls_circle">padding:
               <span class="code">p</span>,
@@ -160,7 +155,7 @@
 
         <div class="row space_between pt2">
           <div class="col2">
-            <p class="type4 pt3 oswald">widths</p>
+            <p class="type4 pt3 barlow">widths</p>
           <p class="regular pt2 pb2">width is equally devided as 10% to 90% where 10% is   <span class="code">w1</span> and its goes to  <span class="code">w9</span>.</p>
             <li class="ls_circle">widths:
               <span class="code">w1</span>,
@@ -175,7 +170,7 @@
             </li>
           </div>
           <div class="col2">
-            <p class="type4 pt3 oswald">columns </p>
+            <p class="type4 pt3 barlow">columns </p>
             <p class="regular pt2 pb2">columuns are equally devided space on the canvas its devide the 100% space into equall columns as,</p>
            <li class="ls_circle">columns:
               <span class="code">col1</span>for 100%,
@@ -190,7 +185,7 @@
           </div>
          </div>
           <div class="col2">
-            <p class="type4 pt3 oswald">borders/corners </p>
+            <p class="type4 pt3 barlow">borders/corners </p>
             <p class="regular pt2 pb2">borders are <span class="code">bl</span>is for left,<span class="code">br</span>is for right,<span class="code">bb</span>is for bottom and <span class="code">bt</span>is for top given by classes as:</p>
            <li class="ls_circle">borderswidth:
              <span class="code">border</span>is 1px solid,
@@ -212,7 +207,7 @@
        </div>
 
     <div class="bg_gray px1 py1 poppins light" id="color">
-       <p class="type2 oswald pb2 ">Colors</p>
+       <p class="type2 barlow pb2 ">Colors</p>
        <li class="ls_circle text ">Background colors are added as <span class="code">.bg_colorname</span>class</li>
        <li class="ls_circle text pb2">colors are added as <span class="code">.colorname</span> class</li>
 
