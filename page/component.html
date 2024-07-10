@@ -32,6 +32,11 @@
       color:#333333;
       background-color: #dadada !important;
     }
+    .cardGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 1rem;
+    }
     </style>
 </head>
 
@@ -258,14 +263,14 @@
 <!-- color swatches  -->
 <div class="px1 py1 poppins bg_light" id="colors">
     <p class="mt2 mb2 type4 strong">Color Swatches</p>
-    <p class="regular mb1 ">color swatches donot use extra classes or style</p>
-<div class="flex">
+    <p class="regular mb4 ">color swatches donot use extra classes or style</p>
+<div class="flex mb4">
     <div class="p2 mr3 circular bg_blue"></div>
     <div class="p2 mr3 circular bg_green"></div>
     <div class="p2 mr3 circular bg_red"></div>
-    <div class="p2 mr3 circular bg_shade"></div>
+    <div class="p2 mr3 circular bg_white"></div>
     <div class="p2 mr3 circular bg_dark"></div>
-    <div class="p2 mr3 circular bg_dim"></div>
+    <div class="p2 mr3 circular bg_yellow"></div>
 </div>
 <pre><code class="language-html">&lt;div class="flex"&gt;
  &lt;div class="p2 mr3
@@ -301,30 +306,48 @@
    <p class="mt2 mb2 type4 strong">Price cards 
 
    </p>
-   <p class="regular mb1 ">Price cards are build with css classes  of design system.</p>  
-<div class="grid justify_between">
+   <p class="regular mb4 ">Price cards are build with css classes  of design system.</p>  
+<div class="cardGrid  justify_between">
     
     <div  style="flex: 1;" class=" p2 flex align_center column justify_center border1 round1 border_shade">
-      <p class="strong regular mb3">card title</p>
-      <p class="type2 strong mb3">$47</p>
-      <p class="type6 text_center">Lorem ipsum dolor sit </p>
-      <p class="type6"></p>
-     <button class="mt2 btn_small round1 bg_blue white strong ">avail offer</button>
+      <p class="uppercase regular mb3">Yearly</p>
+      <p class="type2 strong mb3">$99</p>
+      <ul class="text center">
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+    </ul>
+     <button class="b0 pt1 btn_md btn_blue round1 white strong mt4">Avail Offer</button>
     </div>
 
      <div  style="flex: 1;" class=" p2 flex align_center column justify_center border1 round1 border_shade">
-      <p class="strong regular mb3">card title</p>
-      <p class="type2 strong mb3">$47</p>
-      <p class="type6 text_center">Lorem ipsum dolor sit </p>
-      <p class="type6"></p>
-       <button class="b0 pt1 btn_md round1 gray strong">Components</button>
+            <p class="uppercase regular mb3">6 Monthes</p>
+      <p class="type2 strong mb3">$49</p>
+     <ul class="text center">
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+    </ul>
+       <button class="b0 pt1 btn_md round1 gray strong mt4">Avail Offer</button>
     </div>
      <div  style="flex: 1;" class=" p2 flex align_center column justify_center border1 round1 border_shade">
-      <p class="strong regular mb3">card title</p>
-      <p class="type2 strong mb3">$47</p>
-      <p class="type6 text_center">Lorem ipsum dolor sit </p>
-      <p class="type6"></p>
-     <button class="mt2 btn_small round1 bg_blue white strong ">avail offer</button>
+      <p class="uppercase regular mb3">Monthly</p>
+      <p class="type2 strong mb3">$9</p>
+       <ul class="text center">
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+      <li>Lorem ipsum dolor sit</li>
+    </ul>
+     <button class="b0 pt1 btn_md round1 btn_green white strong mt4">Avail Offer</button>
     </div>  
 </div><pre><code class="language-html">&lt;div class="row justify_center align_center"&gt;   
 &lt;div  style="flex: 1;" class="m3 p2 flex align_center
@@ -337,23 +360,21 @@ column justify_center border1 round1 border_shade"&gt;
 </div>
  <div id="card ">
 <!-- states -->
-<div id="stat">
-   <p class="mt2 mb2 type4 strong">States 
-      <a class="shade regular strong link" href="#stat">#</a>
-   </p>
-   <p class="regular mb1 ">Statistic cards are build with css classes  of design system.</p>  
-    <div class="row">
-        <div class="m3 p3 flex align_center column justify_center round1 bg_shade" style="flex: 1;">
-        <p class="type1 strong">9.4k</p>
-        <p class="regular strong">Downloads</p>
+<div class="px1 py1 poppins bg_light" id="stat">
+   <p class="mt2 mb2 type4 strong">States </p>
+   <p class="regular mb4 ">Statistic cards are build with css classes  of design system.</p>  
+    <div class="row round1 bg_white  p3">
+        <div class="center" style="flex: 1;">
+        <p class="type1 bold">9.4k</p>
+        <p class="regular">Downloads</p>
         </div>
-          <div class="m3 p3 flex align_center column justify_center round1 bg_shade" style="flex: 1;">
-        <p class="type1 strong">2k</p>
-        <p class="regular strong">Stars</p>
+          <div class="center" style="flex: 1;">
+        <p class="type1 bold">2k</p>
+        <p class="regular">Stars</p>
         </div>
-         <div class="m3 p3 flex align_center column justify_center round1 bg_shade" style="flex: 1;">
-        <p class="type1 strong">4.5</p>
-        <p class="regular strong">Ratings</p>
+         <div class="center" style="flex: 1;">
+        <p class="type1 bold">4.5</p>
+        <p class="regular">Ratings</p>
         </div>
 </div><pre><code class="language-html">&lt;div class="m3 p3 flex align_center column 
 justify_center round1 bg_shade" style="flex: 1" &gt;
@@ -362,23 +383,23 @@ justify_center round1 bg_shade" style="flex: 1" &gt;
 &lt;/div&gt;</code></pre>
 </div> 
 
-<!-- Feature item -->
-<div id="feat">
-   <p class="mt2 mb2 type4 strong">Feature item / Message 
-      <a class="shade regular strong link" href="#feat">#</a>
+<!-- message item -->
+<div class="px1 py1 poppins bg_light" id="feat">
+   <p class="mt2 mb2 type4 strong">Message 
+
    </p>
    <p class="regular mb1 ">we can use feature items as messages</p>  
 
 <div class="flex mt2 mb2">
     <div class="flex justify_center align_center
- circular bg_green p2 mr2 strong type4 white"  style="width:3rem; height: 3rem;">D</div>
-    <p class="p2 bg_shade round2" style="flex: 1;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rerum aperiam, sit laudantium dolor at!</p>
+ circular  p2 mr2 type5 x  border1 border_green green"  style="width:2.5rem; height: 2.5rem;">D</div>
+    <p class="p2 bg_blue white round2" style="flex: 1;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rerum aperiam, sit laudantium dolor at!</p>
 </div>
 
 <div class="flex mt2 mb2 row_reverse">
     <div class="flex justify_center align_center
- circular bg_blue p2 ml2 strong type4 white" style="width:3rem; height: 3rem;">Z</div>
-    <p class="p2 bg_shade round2" style="flex: 1;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod aliquid magni corporis deserunt provident sint consequatur dicta quos optio pariatur.</p>
+ circular bg_light p2 ml2 type5  border1 border_blue blue " style="width:2.5rem; height: 2.5rem;">S</div>
+    <p class="p2 bg_white round2" style="flex: 1;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod aliquid magni corporis deserunt provident sint consequatur dicta quos optio pariatur.</p>
 </div>
 
 <pre><code class="language-html">&lt;div class="flex justify_center align_center
@@ -396,24 +417,10 @@ justify_center round1 bg_shade" style="flex: 1" &gt;
 
 
   <!--  Footer -->
-            <div class="row space_between pt1 mt1 mb1">
-                <div class="w5 mb2">
-                    <p class="regular strong mb3">Developer Message</p>
-                    <p class="type6">
-                        Design source is created by [ <a class="link blue strong"href="https://github.com/engsiraj">Noob</a> ] most likely contains bugs and errors and as a dev bugs are new oppertunity to learn. 
-                        Enough appology! just mention one if you find it or we can fix it together.  
-                    </p>
-                </div>
-               
-                <div class="w4 style_none">
-                    <p class="regular strong mb3">!mportant links</p>
-                    <div class="mb3"><a href="https://github.com/engsiraj/designsource" class="dark link">Github</a></div>
-                    <div class="mb3"><a href="https://linkedin.com/in/engsiraj" class="dark link">Linkedin</a></div>
-                    <div class="mb3"><a href=" https://twitter.com/engsiraj_
-                    " class="dark link">Twitter</a></div>
-                  
-                </div>
-            </div>
+  <div class="p2 poppins light bg_gray">
+         <p class="flex justify_center">Created with 🤍 By<a href="https://twitter.com/siraj_codes" class="light pl1 bold" target="_blank">@siraj_codes</a></p>
+       </div>
+  </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 </body>
