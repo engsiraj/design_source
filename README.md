@@ -6,30 +6,30 @@
   <a href="https://designsource.netlify.app/"><strong>explore design source »</strong></a>
   <br>
   <br>
-  <a href="https://github.com/engsiraj/designsource/issues/new">Issue</a>
+  <a href="https://github.com/sirajcode/design_source/issues/new">Issue</a>
   ·
-  <a href="https://github.com/engsiraj/designsource/issues/new">Request feature</a>
-  <!-- ·
-  <a href="https://designsource.netlify.app/pages/component.html">Components</a> -->
+  <a href="https://github.com/sirajcode/design_source/issues/new">Request feature</a>
+  ·
+  <a href="https://designsource.netlify.app/page/component">Components</a>
 </p>
 
 ### Design Source
 
-Design is on its early 0.1.1 release can be used for designing and developement. it develop to achieve handy and re-useable css style easiest simplest way.
+The design is in its early release stage and is ready for use in both design and development projects. It is developed to provide handy, reusable CSS styles in the easiest and simplest way possible. This approach ensures that users can achieve efficient and effective results, making their work smoother and more intuitive.
 
 - [Quick start](#quick-start)
 - [Structure](#structure)
 - [Working](#working)
 - [Technologies used](#technologies-used)
-- [Issues/Updates/Maintenance](#issues/updates/maintenance)
+- [Updates](#updates)
 - [Creator](#creator)
 
 ### Quick start
 
 These are the ways you can start using design source.
 
-- By downloading css file `https://github.com/engsiraj/design_source/blob/master/style.css`.
-- By using cdn link `https://cdn.jsdelivr.net/gh/engsiraj/designsource@master/style.css`.
+- By downloading css file `https://github.com/sirajcode/design_source/blob/master/style.css`.
+- By using cdn link ``.
 
 ### Structure
 
@@ -40,19 +40,17 @@ designsystem/
     └── style.css
 ```
 
+### Working
 
-### Working 
+The UI design uses clear and understandable class names, incorporating abbreviations for simplicity. This approach ensures the code remains well-structured, easily readable, and efficient, making development smoother and more intuitive.
 
-UI Design is easy and understandle classes are used by thier common name abbrevations are fully avoided to make understandle and well structured code.
+### Technologies used
 
-#### Technologies used 
+The design is crafted using only CSS and Flexbox, contained in a single file: `style.css`. It's a streamlined, professional.
 
-Design is created with css and flex box only.
-contains single file  `style.css`.
+### Updates
 
-### Issues/Updates/Maintenance
-
-UI design system is taking its toddlers steps which is fully created by and being maintained by Author
+The UI design system is taking its first steps, fully crafted and lovingly maintained by the author. It's a growing project, evolving with each update, and brings a touch of fun to professional design.
 
 ### Author
 
@@ -60,5 +58,5 @@ UI design system is taking its toddlers steps which is fully created by and bein
 
 [Linkedin] | [Twitter]
 
-[twitter]: https://twitter.com/engsiraj_
-[linkedin]: https://linkedin.com/in/engsiraj
+[twitter]: https://twitter.com/siraj.codes
+[linkedin]: https://linkedin.com/in/sirajcodes
