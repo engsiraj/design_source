@@ -29,7 +29,7 @@ The design is in its early release stage and is ready for use in both design and
 These are the ways you can start using design source.
 
 - By downloading css file `https://github.com/sirajcode/design_source/blob/master/style.css`.
-- By using cdn link ``.
+- By using cdn link `href="https://cdn.jsdelivr.net/gh/sirajcode/design_source@master/style.css`.
 
 ### Structure
 
